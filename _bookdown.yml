@@ -10,7 +10,4 @@ rmd_files: [
   "X1-Anhang.Rmd",
 ]
 
-
-clean: [bookdown.bbl]
-
 before_chapter_script: "_common.R"

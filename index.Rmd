@@ -13,6 +13,17 @@ lot: yes
 lof: yes
 site: bookdown::bookdown_site
 logo: images/bookdownplus-logo.pdf
+output:
+  bookdown::pdf_book:
+    template: tex/template_thesis_classic.tex
+    keep_tex: yes
+    citation_package: biblatex
+#    latex_engine: xelatex
+    toc_depth: 3
+    toc_unnumbered: no
+    toc_appendix: yes
+    pandoc_args:  --top-level-division=chapter
+    quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
 editor_options: 
   chunk_output_type: console
 ---

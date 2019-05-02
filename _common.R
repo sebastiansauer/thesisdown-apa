@@ -8,6 +8,8 @@ knitr::opts_chunk$set(
   warning = FALSE,
   cache = TRUE,
   echo = FALSE,
+  #error = TRUE
+  
   out.width = "90%",
   fig.align = 'center',
   fig.width = 6,
