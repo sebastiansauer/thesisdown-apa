@@ -5,6 +5,7 @@ The examples and some some formatting are suited to the German language.
 
 !EARLY DEVELOPMENT!
 
+Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 
 This work builds heavily on the following open access sources (amongst others):
