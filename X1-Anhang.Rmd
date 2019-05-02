@@ -1,0 +1,12 @@
+
+
+# (APPENDIX) Appendix {-}
+
+<!-- \section{Probeklausur} -->
+
+
+# Grundlagenthemen
+
+Möchte man einen Einstieg in die moderne Datenanalyse finden oder lehren, so ist ein Überblick über Grundlagenthemen sinnvoll. Diese Themen erscheinen zum Einstieg ratsam:
+
+

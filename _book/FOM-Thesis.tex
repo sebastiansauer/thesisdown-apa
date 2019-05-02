@@ -1,0 +1,776 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.0 (23/4/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+		twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+                footinclude=true,cleardoublepage=empty,
+                bibliography=totoc,
+                BCOR=5mm,paper=A4,fontsize=12pt, % Binding correction, paper type and font size
+                ngerman,american, % Languages
+                ]{scrreprt} 
+%\usepackage{CJK}                
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis Configuration File
+%
+% The main lines to change in this file are in the DOCUMENT VARIABLES
+% section, the rest of the file is for advanced configuration.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT VARIABLES
+%	Fill in the lines below to enter your information into the thesis template
+%	Each of the commands can be cited anywhere in the thesis
+%----------------------------------------------------------------------------------------
+
+% Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
+\PassOptionsToPackage{eulerchapternumbers, 
+  listings, 
+  pdfspacing, 
+  subfig, 
+  beramono, 
+  eulermath, 
+  parts, 
+  tocaligned,
+  dottedtoc}
+{style/classicthesis}
+% Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
+% Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
+
+
+
+\newcommand{\myTitle}{A Classic Thesis Style\xspace}
+\newcommand{\mySubtitle}{Master-Thesis\\ Zur Erlangung des Grades\xspace}
+\newcommand{\myDegree}{Master of Science (M. \thinspace Sc.)\xspace}
+\newcommand{\myName}{Vornmae Nachname\xspace}
+\newcommand{\myProf}{Erstgutachter Prof. Dr. Sebastian Sauer\xspace}
+\newcommand{\myOtherProf}{Zweitgutachter: Prof Sebastian Sauer\xspace}
+\newcommand{\mySupervisor}{Put name here\xspace}
+\newcommand{\myMatrikel}{Matrikelnummer: 123456798\xspace}
+\newcommand{\myDepartment}{Put data here\xspace}
+\newcommand{\myUni}{FOM Hochschule f\"ur Oekonomie und Management\xspace}
+\newcommand{\myLocation}{Darmstadt\xspace}
+\newcommand{\myTime}{Abgabedatum: 2019-05-02\xspace}
+\newcommand{\myVersion}{version 4.0\xspace}
+
+%----------------------------------------------------------------------------------------
+%	USEFUL COMMANDS
+%----------------------------------------------------------------------------------------
+
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.} 
+
+\newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+%------------------------------------------------
+ 
+
+\usepackage[utf8]{inputenc}
+ %------------------------------------------------
+
+
+\usepackage[ngerman]{babel}
+
+
+% %------------------------------------------------			
+% 
+% 
+\bibliographystyle{apa}
+% \usepackage[style=apa]{biblatex}
+% 
+% \addbibresource{bib/bib.bib}
+% 
+% 
+%  
+
+
+\usepackage[style=apa]{biblatex}
+
+\addbibresource{bib/bib.bib}
+
+
+
+ 
+ %------------------------------------------------
+
+\usepackage{setspace}
+\setstretch{}
+ 
+ 
+ %------------------------------------------------
+ 
+ 
+ 
+ % use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+ %------------------------------------------------
+
+
+ %------------------------------------------------
+
+
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+ \usepackage{amsmath}
+ 
+ %------------------------------------------------
+
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+\usepackage{fontenc}
+
+
+
+%------------------------------------------------
+
+\usepackage{xspace} % To get the spacing after macros right
+
+%------------------------------------------------
+
+\usepackage{mparhack} % To get marginpar right
+
+%------------------------------------------------
+
+\usepackage{fixltx2e} % Fixes some LaTeX stuff 
+
+%------------------------------------------------
+
+\PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
+\usepackage{acronym} % nice macros for handling all acronyms in the thesis
+
+%------------------------------------------------
+
+%\renewcommand*{\acsfont}[1]{\textssc{#1}} % For MinionPro
+%\renewcommand{\bflabel}[1]{{#1}\hfill} % Fix the list of acronyms
+
+%------------------------------------------------
+
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx} 
+
+%------------------------------------------------
+
+\usepackage{blindtext}% only dummy text
+
+
+%----------------------------------------------------------------------------------------
+%	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{tabularx} % Better tables
+\setlength{\extrarowheight}{3pt} % Increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
+\usepackage{caption}
+\captionsetup{format=hang,font=small}
+\usepackage{subfig}  
+
+\usepackage{longtable,booktabs}
+
+
+\usepackage{threeparttable} % for papaja tables
+
+% for changing captions of tables:
+\usepackage{multirow}
+\usepackage{setspace}
+%\usepackage{subcaption}
+\usepackage{caption} 
+
+\DeclareCaptionLabelSeparator*{spaced}{\\[2ex]}
+\captionsetup[table]{textfont=it,format=plain,justification=justified,
+  singlelinecheck=false,labelsep=spaced,skip=0pt}
+\captionsetup[figure]{labelsep=period,labelfont=it,justification=justified,
+  singlelinecheck=false,font=doublespacing}
+  
+  
+  
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTINGS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex, % Specify the language for listings here
+keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
+basicstyle=\small\ttfamily, % Makes listings a smaller font size and a different font
+%identifierstyle=\color{NavyBlue}, % Color of text inside brackets
+commentstyle=\color{Green}\ttfamily, % Color of comments
+stringstyle=\rmfamily, % Font type to use for strings
+numbers=left, % Change left to none to remove line numbers
+numberstyle=\scriptsize, % Font size of the line numbers
+stepnumber=5, % Increment of line numbers
+numbersep=8pt, % Distance of line numbers from code listing
+showstringspaces=false, % Sets whether spaces in strings should appear underlined
+breaklines=true, % Force the code to stay in the confines of the listing box
+%frameround=ftff, % Uncomment for rounded frame
+frame=single, % Frame border - none/leftline/topline/bottomline/lines/single/shadowbox/L
+belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text and the listing box
+}
+
+%----------------------------------------------------------------------------------------
+%	HYPERREFERENCES
+%----------------------------------------------------------------------------------------
+
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+\usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1
+
+\hypersetup{
+% Uncomment the line below to remove all links (to references, figures, tables, etc)
+%draft, 
+colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
+% Uncomment the line below if you want to have black links (e.g. for printing black and white)
+%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
+breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
+plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
+hypertexnames=true, pdfhighlight=/O, urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
+%------------------------------------------------
+% PDF file meta-information
+pdftitle={\myTitle},
+pdfauthor={\textcopyright\ \myName, \myUni},
+pdfsubject={},
+pdfkeywords={},
+pdfcreator={pdfLaTeX},
+pdfproducer={LaTeX with hyperref and classicthesis}
+%------------------------------------------------
+}   
+
+%----------------------------------------------------------------------------------------
+%	BACKREFERENCES
+%----------------------------------------------------------------------------------------
+
+\usepackage{ifthen} % Allows the user of the \ifthenelse command
+\newboolean{enable-backrefs} % Variable to enable backrefs in the bibliography
+\setboolean{enable-backrefs}{false} % Variable value: true or false
+
+\newcommand{\backrefnotcitedstring}{\relax} % (Not cited.)
+\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
+\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+\ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
+{
+\PassOptionsToPackage{hyperpageref}{backref}
+\usepackage{backref} % to be loaded after hyperref package 
+\renewcommand{\backreftwosep}{ and~} % separate 2 pages
+\renewcommand{\backreflastsep}{, and~} % separate last of longer list
+\renewcommand*{\backref}[1]{}  % disable standard
+\renewcommand*{\backrefalt}[4]{% detailed backref
+\ifcase #1 
+\backrefnotcitedstring
+\or
+\backrefcitedsinglestring{#2}
+\else
+\backrefcitedmultistring{#2}
+\fi}
+}{\relax} 
+
+%----------------------------------------------------------------------------------------
+%	AUTOREFERENCES SETUP
+%	Redefines how references in text are prefaced for different 
+%	languages (e.g. "Section 1.2" or "section 1.2")
+%----------------------------------------------------------------------------------------
+
+\makeatletter
+\@ifpackageloaded{babel}
+{
+\addto\extrasamerican{
+\renewcommand*{\figureautorefname}{Figure}
+\renewcommand*{\tableautorefname}{Table}
+\renewcommand*{\partautorefname}{Part}
+\renewcommand*{\chapterautorefname}{Chapter}
+\renewcommand*{\sectionautorefname}{Section}
+\renewcommand*{\subsectionautorefname}{Section}
+\renewcommand*{\subsubsectionautorefname}{Section}
+}
+\addto\extrasngerman{
+\renewcommand*{\paragraphautorefname}{Absatz}
+\renewcommand*{\subparagraphautorefname}{Unterabsatz}
+\renewcommand*{\footnoteautorefname}{Fu\"snote}
+\renewcommand*{\FancyVerbLineautorefname}{Zeile}
+\renewcommand*{\theoremautorefname}{Theorem}
+\renewcommand*{\appendixautorefname}{Anhang}
+\renewcommand*{\equationautorefname}{Gleichung}
+\renewcommand*{\itemautorefname}{Punkt}
+}
+\providecommand{\subfigureautorefname}{\figureautorefname} % Fix to getting autorefs for subfigures right
+}{\relax}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+
+\usepackage{style/classicthesis} 
+
+%----------------------------------------------------------------------------------------
+%	CHANGING TEXT AREA 
+%----------------------------------------------------------------------------------------
+
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+
+%----------------------------------------------------------------------------------------
+%	USING DIFFERENT FONTS
+%----------------------------------------------------------------------------------------
+
+%\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
+\usepackage[osf]{libertine}
+%\usepackage{hfoldsty} % Computer Modern with osf
+%\usepackage[light,condensed,math]{iwona}
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} <-- no osf support :-(
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\ImportTok}[1]{{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{{#1}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
+
+\usepackage{textcomp} % for backstick
+\providecommand{\tightlist}{ % for tight list
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+
+
+
+% BEGIN DOCUMENT ----------------------------------------------------
+
+
+\begin{document}
+%\begin{CJK*}{GBK}{song} 
+
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{ngerman} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES - TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+%\include{FrontBackmatter/Titlepage} % Main title page
+
+% Title Page
+
+\begin{titlepage}
+
+\begin{addmargin}[-1cm]{-3cm}
+\begin{center}
+\large
+
+\hfill
+\vfill
+
+\includegraphics[width=3cm]{images/bookdownplus-logo.pdf} \\ \medskip % logo picture
+\myUni \\ \bigskip
+
+\vspace{3cm}
+
+\begingroup
+\LARGE
+\color{Maroon}\spacedallcaps{Das ist der Titel} \\Das ist der Untertitel\\ \bigskip % Thesis title
+
+\endgroup
+
+\spacedlowsmallcaps{Sebastian Sauer} % Your name
+
+\vfill
+
+%\includegraphics[width=6cm]{images/bookdownplus-logo.pdf} \\ \medskip % Picture
+
+\mySubtitle \\ \medskip 
+\myDegree \\ \bigskip
+%\myDepartment \\
+
+\vspace{2cm}
+
+\myProf \\
+\myOtherProf \\
+\myMatrikel \\
+\myTime\ 
+
+\vfill
+
+\end{center}
+\end{addmargin}
+
+\end{titlepage}
+
+% \include{FrontBackmatter/Titleback} % Back of the title page
+
+%\cleardoublepage\include{FrontBackmatter/Dedication} % Dedication page
+
+%\cleardoublepage\include{FrontBackmatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+
+\cleardoublepage\include{00-Abstract} % Abstract page
+
+%\cleardoublepage\include{FrontBackmatter/Publication} % Publications from the thesis page
+
+%\cleardoublepage\include{FrontBackmatter/Acknowledgments} % Acknowledgements page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+%\cleardoublepage\include{FrontBackmatter/Contents} % Contents, list of figures/tables/listings and acronyms
+% Table of Contents - List of Tables/Figures/Listings and Acronyms
+
+\refstepcounter{dummy}
+
+\pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
+
+\setcounter{tocdepth}{2} % Depth of sections to include in the table of contents - currently up to subsections
+
+\setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+\clearpage
+
+\begingroup 
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace*{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listtablename} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace*{8ex}
+\newpage
+    
+
+       
+%----------------------------------------------------------------------------------------
+%	Acronyms
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{Acronyms} % Uncomment if you would like the acronyms to appear in the table of contents
+\pdfbookmark[1]{Acronyms}{acronyms} % Bookmark name visible in a PDF viewer
+
+\markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+
+\chapter*{Abkürzungsverzeichnis}
+
+\begin{acronym}[UML]
+\acro{DRY}{Don't Repeat Yourself}
+\acro{API}{Application Programming Interface}
+\acro{UML}{Unified Modeling Language}
+\end{acronym}  
+                   
+\endgroup
+
+\cleardoublepage
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+% \ctparttext{You can put some informational part preamble text here. Illo principalmente su nos. Non message \emph{occidental} angloromanic da. Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate publicationes via. Pan in terra summarios, capital interlingua se que. Al via multo esser specimen, campo responder que da. Le usate medical addresses pro, europa origine sanctificate nos se.} % Text on the Part 1 page describing  the content in Part 1
+
+
+\hypertarget{einfuhrung}{%
+\chapter{Einführung}\label{einfuhrung}}
+
+äößü
+
+The R package \texttt{bookdownplus} \autocite{R-bookdownplus} is an extension of \texttt{bookdown} \autocite{R-bookdown}. It is a collection of
+multiple templates on the basis of LaTeX, which are tailored so that I can work happily under the umbrella of \texttt{bookdown}. \texttt{bookdownplus} helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries.
+
+\graffito{You can put some additional information here}
+
+\hypertarget{features}{%
+\chapter{Features}\label{features}}
+
+\texttt{bookdownplus} extends the features of \texttt{bookdown}, and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX.
+
+With \texttt{bookdownplus} users can
+
+\begin{itemize}
+\item
+  record guitar chords,
+\item
+  write a mail in an elegant layout,
+\item
+  write a laboratory journal, or a personal diary,
+\item
+  draw a monthly or weekly or conference calendar,
+\item
+  and, of course, write academic articles in your favourite way,
+\item
+  with chemical molecular formulae and equations,
+\item
+  even in Chinese,
+\item
+  and more wonders will come soon.
+\end{itemize}
+
+Full documentation can be found in the book \href{https://bookdown.org/baydap/bookdownplus}{R bookdownplus Textbook}. The webpage looks so-so, while the \href{https://bookdown.org/baydap/bookdownplus/bookdownplus.pdf}{pdf file} might give you a little surprise.
+
+\hypertarget{beispiele-fur-tabellen-und-abbiludngen}{%
+\chapter{Beispiele für Tabellen und Abbiludngen}\label{beispiele-fur-tabellen-und-abbiludngen}}
+
+\hypertarget{alles-apa-konform}{%
+\section{Alles APA-konform}\label{alles-apa-konform}}
+
+Abbildung \ref{fig:apa1} zeigt eine APA-konforme Abbildung.
+
+\begin{figure}[h]
+
+{\centering \includegraphics[width=0.9\linewidth]{FOM-Thesis_files/figure-latex/apa1-1} 
+
+}
+
+\caption{APA-konform}\label{fig:apa1}
+\end{figure}
+
+Tabelle \ref{tab:mtcars1} zeigt eine APA-konforme Tabelle.
+
+\begin{table}[!h]
+
+\caption{\label{tab:mtcars1}APA-konforme Tabelle}
+\begin{tabular}{lrrrr}
+\toprule
+  & mpg & cyl & disp & hp\\
+\midrule
+Mazda RX4 & 21.0 & 6 & 160 & 110\\
+Mazda RX4 Wag & 21.0 & 6 & 160 & 110\\
+Datsun 710 & 22.8 & 4 & 108 & 93\\
+Hornet 4 Drive & 21.4 & 6 & 258 & 110\\
+Hornet Sportabout & 18.7 & 8 & 360 & 175\\
+\addlinespace
+Valiant & 18.1 & 6 & 225 & 105\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Und diese hier auch (s. Tabelle \ref{tab:mtcars2}).
+
+\begin{table}[tbp]
+\begin{center}
+\begin{threeparttable}
+\caption{\label{tab:mtcars2}A summary table of the cars dataset.}
+\begin{tabular}{lrrrl}
+\toprule
+ & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Max}\\
+\midrule
+speed & 15.40 & 5.29 & 4.00 & 25.00\\
+dist & 42.98 & 25.77 & 2.00 & 120.00\\
+\bottomrule
+\end{tabular}
+\end{threeparttable}
+\end{center}
+\end{table}
+
+\hypertarget{recommendations}{%
+\chapter{Recommendations}\label{recommendations}}
+
+\hypertarget{models}{%
+\section{Models}\label{models}}
+
+Eq. \eqref{eq:mc2} is an equation.
+
+\begin{equation} 
+E = mc^2
+  \label{eq:mc2}
+\end{equation}
+
+It can be written as \(E = mc^2\).
+
+\hypertarget{results}{%
+\chapter{Results}\label{results}}
+
+Fig. \ref{fig:fig1} psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+\begin{figure}[h]
+
+{\centering \includegraphics[width=0.8\linewidth]{FOM-Thesis_files/figure-latex/fig1-1} 
+
+}
+
+\caption{caption}\label{fig:fig1}
+\end{figure}
+
+Tab. \ref{tab:tab1} psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+\begin{table}[t]
+
+\caption{\label{tab:tab1}Here is a nice table!}
+\centering
+\begin{tabular}{rrrrl}
+\toprule
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\midrule
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\addlinespace
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+4.6 & 3.4 & 1.4 & 0.3 & setosa\\
+5.0 & 3.4 & 1.5 & 0.2 & setosa\\
+4.4 & 2.9 & 1.4 & 0.2 & setosa\\
+4.9 & 3.1 & 1.5 & 0.1 & setosa\\
+\addlinespace
+5.4 & 3.7 & 1.5 & 0.2 & setosa\\
+4.8 & 3.4 & 1.6 & 0.2 & setosa\\
+4.8 & 3.0 & 1.4 & 0.1 & setosa\\
+4.3 & 3.0 & 1.1 & 0.1 & setosa\\
+5.8 & 4.0 & 1.2 & 0.2 & setosa\\
+\addlinespace
+5.7 & 4.4 & 1.5 & 0.4 & setosa\\
+5.4 & 3.9 & 1.3 & 0.4 & setosa\\
+5.1 & 3.5 & 1.4 & 0.3 & setosa\\
+5.7 & 3.8 & 1.7 & 0.3 & setosa\\
+5.1 & 3.8 & 1.5 & 0.3 & setosa\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\hypertarget{conclusions}{%
+\chapter{Conclusions}\label{conclusions}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+\hypertarget{refs}{}
+
+\printbibliography
+
+\hypertarget{appendix-appendix}{%
+\appendix \addcontentsline{toc}{chapter}{\appendixname}}
+
+
+\hypertarget{grundlagenthemen}{%
+\chapter{Grundlagenthemen}\label{grundlagenthemen}}
+
+Möchte man einen Einstieg in die moderne Datenanalyse finden oder lehren, so ist ein Überblick über Grundlagenthemen sinnvoll. Diese Themen erscheinen zum Einstieg ratsam:
+
+% Bibliography
+
+\label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}} 
+\refstepcounter{dummy}
+
+\addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
+
+
+
+
+
+
+
+
+
+
+\end{document}

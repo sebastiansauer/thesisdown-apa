@@ -1,0 +1,14 @@
+base
+ggplot2
+papaja
+tidyverse
+tibble
+tidyr
+readr
+purrr
+dplyr
+stringr
+forcats
+knitr
+kableExtra
+formattable

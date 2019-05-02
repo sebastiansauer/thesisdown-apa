@@ -1,0 +1,49 @@
+# Beispiele für Tabellen und Abbiludngen
+
+
+## Alles APA-konform
+
+
+
+
+Abbildung \@ref(fig:apa1) zeigt eine APA-konforme Abbildung.
+
+```{r apa1, fig.cap = "APA-konform"}
+data(mtcars)
+
+
+mtcars %>% 
+  ggplot() +
+  aes(x = factor(cyl), y = hp) +
+  geom_boxplot() +
+  theme_apa()
+```
+
+
+Tabelle \@ref(tab:mtcars1) zeigt eine APA-konforme Tabelle.
+
+```{r mtcars1}
+mtcars %>% 
+  head() %>% 
+  select(1:4) %>% 
+  knitr::kable(booktabs = TRUE, 
+               caption = "APA-konforme Tabelle",
+               format = "latex",
+               escape = FALSE) %>% 
+  kable_styling(latex_option = c("hold_position"), position = "left")
+```
+
+
+Und diese hier auch (s. Tabelle \@ref(tab:mtcars2)).
+```{r mtcars2, results = "asis"}
+my_table <- t(apply(cars, 2, function(x) # Create data
+  round(c(Mean = mean(x), SD = sd(x), Min = min(x), Max = max(x)), 2)
+))
+
+apa_table(
+  my_table
+  , align = c("l", rep("r", 3))
+  , caption = "A summary table of the cars dataset."
+)
+
+```

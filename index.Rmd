@@ -1,0 +1,25 @@
+--- 
+title: "Das ist der Titel"
+subtitle: "Das ist der Untertitel"
+author: "Sebastian Sauer"
+date: "2019-05-02"
+bibliography: [bib/bib.bib]
+# biblio-style: apa
+biblio-style: "apa"
+link-citations: yes
+colorlinks: no  
+# toc: no
+lot: yes
+lof: yes
+site: bookdown::bookdown_site
+logo: images/bookdownplus-logo.pdf
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(out.width = '90%', fig.align = 'center')
+```
+
+
+

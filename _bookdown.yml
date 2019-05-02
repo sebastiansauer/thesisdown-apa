@@ -1,0 +1,16 @@
+book_filename: FOM-Thesis
+
+rmd_files: [
+  "index.Rmd",
+  "01-Intro.Rmd",
+  "02-AbbTabs.Rmd",
+  "03-Gleichungen.Rmd",
+  "04-Diskussion.Rmd",
+  "X0-Literatur.Rmd",
+  "X1-Anhang.Rmd",
+]
+
+
+clean: [bookdown.bbl]
+
+before_chapter_script: "_common.R"
