@@ -7,6 +7,10 @@ The examples and some some formatting are suited to the German language.
 
 Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
+
+
 
 This work builds heavily on the following open access sources (amongst others):
 
