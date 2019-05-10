@@ -1,5 +1,5 @@
 --- 
-title: "Das ist der Titel"
+title: "Das ist der Titel der Thesis"
 subtitle: "Das ist der Untertitel"
 author: "Sebastian Sauer"
 date: "2019-05-02"
@@ -13,17 +13,15 @@ lot: yes
 lof: yes
 site: bookdown::bookdown_site
 logo: images/bookdownplus-logo.pdf
-output:
-  bookdown::pdf_book:
-    template: tex/template_thesis_classic.tex
-    keep_tex: yes
-    citation_package: biblatex
-#    latex_engine: xelatex
-    toc_depth: 3
-    toc_unnumbered: no
-    toc_appendix: yes
-    pandoc_args:  --top-level-division=chapter
-    quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
+
+
+referee1: "Erstgutachter Prof. Dr. Sebastian Sauer"
+referee2: "Zweitgutachter Prof. Dr. I. Ch. Weiss-Ois"
+id: "Matrikelnummer: 123456798"
+location: "München"
+mytime: "Abgabedatum: 2019-05-02"
+
+
 editor_options: 
   chunk_output_type: console
 ---

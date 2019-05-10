@@ -7,6 +7,27 @@
 
 # Grundlagenthemen
 
-Möchte man einen Einstieg in die moderne Datenanalyse finden oder lehren, so ist ein Überblick über Grundlagenthemen sinnvoll. Diese Themen erscheinen zum Einstieg ratsam:
+Möchte man einen Einstieg in die moderne Datenanalyse finden oder lehren, so ist ein Überblick über  Grundlagenthemen sinnvoll. Diese Themen erscheinen zum Einstieg ratsam
+
+
+
+sdjfkl
+
+
+
+# Ehrenwörtliche Erklärung
+
+
+Hiermit versichere ich, dass die vorliegende Arbeit von mir selbständig und ohne unerlaubte Hilfe angefertigt worden ist, insbesondere dass ich alle Stellen, die wärtlich oder annähernd wörtlich aus Veröffentlichungen entnommen sind, durch Zitate als solche gekennzeichnet habe. Ich versichere auch, dass die von mir eingereichte schriftliche Version mit der digitalen Version u??bereinstimmt. Weiterhin erkläre ich, dass die Arbeit in gleicher oder a??hnlicher Form noch keiner Präfungsbehörde/Prüfungsstelle vorgelegen hat. Ich erkläre mich damit nicht einverstanden, dass die Arbeit der Öffentlichkeit zugänglich gemacht wird. Ich erkläre mich damit einverstanden, dass die Digitalversion dieser Arbeit zwecks Plagiatsprüfung auf die Server externer Anbieter hoch geladen werden darf. Die Plagiatsprüfung stellt keine Zurverfügungstellung für die Öffentlichkeit dar. 
+
+
+
+
+\vspace{7cm}
+
+
+
+
+Ort, Datum  \hspace{5cm}  Name
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.28)  2 MAY 2019 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.28)  10 MAY 2019 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -32,10 +32,10 @@ Class scrreprt Info: You've used standard option `openright'.
 (scrreprt)           If you'd like to set the option with \KOMAoptions,
 (scrreprt)           you'd have to use `open=right' there
 (scrreprt)           instead of `openright', too.
-Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input l
+Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2373.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (12p
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11p
 t)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
@@ -46,21 +46,21 @@ Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@temp=\skip45
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 12
+(typearea)             DIV  = 10
 (typearea)             BCOR = 14.22636pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 437.46118pt
+(typearea)              \textwidth      = 408.2971pt
 (typearea)              DIV departure   = -3%
-(typearea)              \evensidemargin = 24.9436pt
-(typearea)              \oddsidemargin  = -9.43683pt
+(typearea)              \evensidemargin = 44.38632pt
+(typearea)              \oddsidemargin  = 0.28453pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 548.5pt
-(typearea)              \topmargin      = -1.84941pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
+(typearea)              \textheight     = 514.20023pt
+(typearea)              \topmargin      = 12.2347pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 1715.
 )
 \c@part=\count81
@@ -995,13 +995,13 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \evensidemargin = 92.58438pt
 (typearea)              \oddsidemargin  = 24.38356pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 660.5pt
+(typearea)              \textheight     = 666.04997pt
 (typearea)              \topmargin      = -40.58768pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
+(typearea)              \headheight     = 15.95pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 252.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1457,7 +1457,7 @@ File: T1LinuxLibertineT-TOsF.fd 2017/03/20 (autoinst) Font definitions for T1/L
 inuxLibertineT-TOsF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 411.
+(Font)              scaled to size 10.95pt on input line 411.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1554,14 +1554,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 \c@mv@tabular=\count470
 \c@mv@boldtabular=\count471
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 440.
+(Font)              scaled to size 12.0pt on input line 440.
 <images/bookdownplus-logo.pdf, id=4, 113.7048pt x 113.7048pt>
 File: images/bookdownplus-logo.pdf Graphic file (type pdf)
 <use images/bookdownplus-logo.pdf>
 Package pdftex.def Info: images/bookdownplus-logo.pdf  used on input line 445.
 (pdftex.def)             Requested size: 85.35826pt x 85.35818pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 451.
+(Font)              scaled to size 17.28pt on input line 451.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 452.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pplj.fd
@@ -1596,7 +1596,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 456.
+(Font)              scaled to size 12.0pt on input line 456.
 [1
 
 
@@ -1619,15 +1619,15 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 50
 7.
 (./FOM-Thesis.toc
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 7.
+(Font)              scaled to size 10.95pt on input line 7.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 7.
+(Font)              scaled to size 10.95pt on input line 7.
 )
 \tf@toc=\write6
 \openout6 = `FOM-Thesis.toc'.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 512.
+(Font)              scaled to size 10.0pt on input line 512.
 [5]
 Package tocbasic Info: character protrusion at lof deactivated on input line 52
 7.
@@ -1646,7 +1646,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 54
 
 [7]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 559.
+(Font)              scaled to size 9.0pt on input line 559.
 [8]
 chapter 1.
 
@@ -1673,23 +1673,23 @@ File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
 1/LinuxLibertineMonoT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 585.
+(Font)              scaled to size 10.95pt on input line 585.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineMonoT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <12> not 
-available
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <10.95> n
+ot available
 (Font)              Font shape `T1/LinuxLibertineT-TOsF/m/it' tried instead on 
 input line 588.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 588.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <10> not 
-available
+(Font)              scaled to size 10.95pt on input line 588.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <9> not a
+vailable
 (Font)              Font shape `T1/LinuxLibertineT-TOsF/m/it' tried instead on 
 input line 588.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 588.
+(Font)              scaled to size 9.0pt on input line 588.
 [1
 
 
@@ -1711,7 +1711,7 @@ File: TS1LinuxLibertineT-TOsF.fd 2017/03/20 (autoinst) Font definitions for TS1
 /LinuxLibertineT-TOsF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 599.
+(Font)              scaled to size 10.95pt on input line 599.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TOsF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1721,17 +1721,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 chapter 3.
-<FOM-Thesis_files/figure-latex/apa1-1.pdf, id=180, 423.5825pt x 257.96375pt>
+<FOM-Thesis_files/figure-latex/apa1-1.pdf, id=181, 423.5825pt x 257.96375pt>
 File: FOM-Thesis_files/figure-latex/apa1-1.pdf Graphic file (type pdf)
 <use FOM-Thesis_files/figure-latex/apa1-1.pdf>
 Package pdftex.def Info: FOM-Thesis_files/figure-latex/apa1-1.pdf  used on inpu
 t line 628.
 (pdftex.def)             Requested size: 302.39795pt x 184.16713pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 639.
+(Font)              scaled to size 10.0pt on input line 639.
 [5 <./FOM-Thesis_files/figure-latex/apa1-1.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 674.
+(Font)              scaled to size 10.0pt on input line 674.
 [6]
 chapter 4.
 [7
@@ -1742,7 +1742,7 @@ chapter 4.
 
 ]
 chapter 5.
-<FOM-Thesis_files/figure-latex/fig1-1.pdf, id=215, 401.5pt x 194.7275pt>
+<FOM-Thesis_files/figure-latex/fig1-1.pdf, id=217, 401.5pt x 194.7275pt>
 File: FOM-Thesis_files/figure-latex/fig1-1.pdf Graphic file (type pdf)
 <use FOM-Thesis_files/figure-latex/fig1-1.pdf>
 Package pdftex.def Info: FOM-Thesis_files/figure-latex/fig1-1.pdf  used on inpu
@@ -1763,12 +1763,17 @@ chapter without number
 
 ]
 chapter A.
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 776.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 776.
+[15] [16
+
+
+]
+chapter B.
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 787.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 787.
 (./FOM-Thesis.aux (./00-Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 776.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 776.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 787.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 787.
 Package rerunfilecheck Info: File `FOM-Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'FOM-Thesis.run.xml'.
@@ -1776,11 +1781,11 @@ Package logreq Info: Writing requests to 'FOM-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34857 strings out of 492616
- 627102 string characters out of 6128981
- 1389604 words of memory out of 5000000
- 38141 multiletter control sequences out of 15000+600000
- 671329 words of font info for 135 fonts, out of 8000000 for 9000
+ 34863 strings out of 492616
+ 627169 string characters out of 6128981
+ 1389715 words of memory out of 5000000
+ 38145 multiletter control sequences out of 15000+600000
+ 671042 words of font info for 134 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  80i,13n,131p,9089b,5504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc
@@ -1796,11 +1801,12 @@ ineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinL
 ibertineTI.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
 euler/eufm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/euler/eurb10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/euler/eurm10.pfb>
-Output written on FOM-Thesis.pdf (23 pages, 442076 bytes).
+nts/euler/eurm10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/euler/eurm7.pfb>
+Output written on FOM-Thesis.pdf (25 pages, 447200 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 74 named destinations out of 1000 (max. 500000)
- 27288 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 27296 words of extra memory for PDF output out of 29859 (max. 10000000)
 
