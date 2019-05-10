@@ -1,5 +1,7 @@
 
 
+# Run all
+
 intermediate_output <- "FOM-Thesis.Rmd"
 
 if (file.exists(intermediate_output)) {
