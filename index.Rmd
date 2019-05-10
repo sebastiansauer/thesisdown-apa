@@ -4,11 +4,9 @@ subtitle: "Das ist der Untertitel"
 author: "Sebastian Sauer"
 date: "2019-05-02"
 bibliography: [bib/bib.bib]
-# biblio-style: apa
 biblio-style: "apa"
 link-citations: yes
 colorlinks: no  
-# toc: no
 lot: yes
 lof: yes
 site: bookdown::bookdown_site
@@ -20,6 +18,7 @@ referee2: "Zweitgutachter Prof. Dr. I. Ch. Weiss-Ois"
 id: "Matrikelnummer: 123456798"
 location: "München"
 mytime: "Abgabedatum: 2019-05-02"
+myversion: "v0.0.1"
 
 
 editor_options: 
