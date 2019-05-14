@@ -2,7 +2,6 @@ bookdown::pdf_book:
   template: tex/template_thesis_classic.tex
   keep_tex: yes
   citation_package: biblatex
-#  latex_engine: xelatex   # xelatex does not work.
   toc_depth: 3
   toc_unnumbered: no
   toc_appendix: yes

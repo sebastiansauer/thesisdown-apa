@@ -11,6 +11,7 @@ lot: yes
 lof: yes
 site: bookdown::bookdown_site
 logo: images/bookdownplus-logo.pdf
+language: german
 
 
 referee1: "Erstgutachter Prof. Dr. Sebastian Sauer"
