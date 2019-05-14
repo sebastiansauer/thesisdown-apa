@@ -1,24 +1,36 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.12.28)  10 MAY 2019 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.14)  14 MAY 2019 14:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **FOM-Thesis.tex
 (./FOM-Thesis.tex
 LaTeX2e <2018-12-01>
-(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrreprt.cls
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+reprt.cls
 Document Class: scrreprt 2019/02/01 v3.26b KOMA-Script document class (report)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+kbase.sty
 Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrbase.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+base.sty
 Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
  basics and keyval usage)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrlfile.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+lfile.sty
 Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/tocbasic.sty
+)))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/toc
+basic.sty
 Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box27
@@ -34,10 +46,14 @@ Class scrreprt Info: You've used standard option `openright'.
 (scrreprt)           instead of `openright', too.
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
 ine 2373.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+size11pt.clo
 File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11p
 t)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/typearea.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/typ
+earea.sty
 Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count80
@@ -118,22 +134,28 @@ Class scrreprt Info: Redefining `\numberline' on input line 6799.
 \bibindent=\dimen102
 )
 \c@dummy=\count90
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/local/tex
-live/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-02-15 L3 programming layer (loader) 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-02-15 L3 programming layer (code)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/lipsum/lipsum.s
+ty
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.
+sty
+Package: expl3 2019-05-09 L3 programming layer (loader) 
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-
+code.tex
+Package: expl3 2019-05-09 L3 programming layer (code)
 \c_max_int=\count91
 \l_tmpa_int=\count92
 \l_tmpb_int=\count93
 \g_tmpa_int=\count94
 \g_tmpb_int=\count95
 \g__kernel_prg_map_int=\count96
-\c_log_iow=\count97
-\l_iow_line_count_int=\count98
-\l__iow_line_target_int=\count99
-\l__iow_one_indent_int=\count100
-\l__iow_indent_int=\count101
+\c__ior_term_ior=\count97
+\c_log_iow=\count98
+\l_iow_line_count_int=\count99
+\l__iow_line_target_int=\count100
+\l__iow_one_indent_int=\count101
+\l__iow_indent_int=\count102
 \c_zero_dim=\dimen103
 \c_max_dim=\dimen104
 \l_tmpa_dim=\dimen105
@@ -152,75 +174,78 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count102
-\l__intarray_loop_int=\count103
+\l_keys_choice_int=\count103
+\l__intarray_loop_int=\count104
 \c__intarray_sp_dim=\dimen109
-\g__intarray_font_int=\count104
-\c__fp_leading_shift_int=\count105
-\c__fp_middle_shift_int=\count106
-\c__fp_trailing_shift_int=\count107
-\c__fp_big_leading_shift_int=\count108
-\c__fp_big_middle_shift_int=\count109
-\c__fp_big_trailing_shift_int=\count110
-\c__fp_Bigg_leading_shift_int=\count111
-\c__fp_Bigg_middle_shift_int=\count112
-\c__fp_Bigg_trailing_shift_int=\count113
-\g__fp_array_int=\count114
-\l__fp_array_loop_int=\count115
-\l__sort_length_int=\count116
-\l__sort_min_int=\count117
-\l__sort_top_int=\count118
-\l__sort_max_int=\count119
-\l__sort_true_max_int=\count120
-\l__sort_block_int=\count121
-\l__sort_begin_int=\count122
-\l__sort_end_int=\count123
-\l__sort_A_int=\count124
-\l__sort_B_int=\count125
-\l__sort_C_int=\count126
-\l__tl_analysis_normal_int=\count127
-\l__tl_analysis_index_int=\count128
-\l__tl_analysis_nesting_int=\count129
-\l__tl_analysis_type_int=\count130
-\l__regex_internal_a_int=\count131
-\l__regex_internal_b_int=\count132
-\l__regex_internal_c_int=\count133
-\l__regex_balance_int=\count134
-\l__regex_group_level_int=\count135
-\l__regex_mode_int=\count136
-\c__regex_cs_in_class_mode_int=\count137
-\c__regex_cs_mode_int=\count138
-\l__regex_catcodes_int=\count139
-\l__regex_default_catcodes_int=\count140
-\c__regex_catcode_L_int=\count141
-\c__regex_catcode_O_int=\count142
-\c__regex_catcode_A_int=\count143
-\c__regex_all_catcodes_int=\count144
-\l__regex_show_lines_int=\count145
-\l__regex_min_state_int=\count146
-\l__regex_max_state_int=\count147
-\l__regex_left_state_int=\count148
-\l__regex_right_state_int=\count149
-\l__regex_capturing_group_int=\count150
-\l__regex_min_pos_int=\count151
-\l__regex_max_pos_int=\count152
-\l__regex_curr_pos_int=\count153
-\l__regex_start_pos_int=\count154
-\l__regex_success_pos_int=\count155
-\l__regex_curr_char_int=\count156
-\l__regex_curr_catcode_int=\count157
-\l__regex_last_char_int=\count158
-\l__regex_case_changed_char_int=\count159
-\l__regex_curr_state_int=\count160
-\l__regex_step_int=\count161
-\l__regex_min_active_int=\count162
-\l__regex_max_active_int=\count163
-\l__regex_replacement_csnames_int=\count164
-\l__regex_match_count_int=\count165
-\l__regex_min_submatch_int=\count166
-\l__regex_submatch_int=\count167
-\l__regex_zeroth_submatch_int=\count168
-\g__regex_trace_regex_int=\count169
+\g__intarray_font_int=\count105
+\c__fp_leading_shift_int=\count106
+\c__fp_middle_shift_int=\count107
+\c__fp_trailing_shift_int=\count108
+\c__fp_big_leading_shift_int=\count109
+\c__fp_big_middle_shift_int=\count110
+\c__fp_big_trailing_shift_int=\count111
+\c__fp_Bigg_leading_shift_int=\count112
+\c__fp_Bigg_middle_shift_int=\count113
+\c__fp_Bigg_trailing_shift_int=\count114
+\c__kernel_randint_max_int=\count115
+\g__fp_array_int=\count116
+\l__fp_array_loop_int=\count117
+\l__sort_length_int=\count118
+\l__sort_min_int=\count119
+\l__sort_top_int=\count120
+\l__sort_max_int=\count121
+\l__sort_true_max_int=\count122
+\l__sort_block_int=\count123
+\l__sort_begin_int=\count124
+\l__sort_end_int=\count125
+\l__sort_A_int=\count126
+\l__sort_B_int=\count127
+\l__sort_C_int=\count128
+\l__tl_analysis_normal_int=\count129
+\l__tl_analysis_index_int=\count130
+\l__tl_analysis_nesting_int=\count131
+\l__tl_analysis_type_int=\count132
+\l__regex_internal_a_int=\count133
+\l__regex_internal_b_int=\count134
+\l__regex_internal_c_int=\count135
+\l__regex_balance_int=\count136
+\l__regex_group_level_int=\count137
+\l__regex_mode_int=\count138
+\c__regex_cs_in_class_mode_int=\count139
+\c__regex_cs_mode_int=\count140
+\l__regex_catcodes_int=\count141
+\l__regex_default_catcodes_int=\count142
+\c__regex_catcode_D_int=\count143
+\c__regex_catcode_S_int=\count144
+\c__regex_catcode_L_int=\count145
+\c__regex_catcode_O_int=\count146
+\c__regex_catcode_A_int=\count147
+\c__regex_all_catcodes_int=\count148
+\l__regex_show_lines_int=\count149
+\l__regex_min_state_int=\count150
+\l__regex_max_state_int=\count151
+\l__regex_left_state_int=\count152
+\l__regex_right_state_int=\count153
+\l__regex_capturing_group_int=\count154
+\l__regex_min_pos_int=\count155
+\l__regex_max_pos_int=\count156
+\l__regex_curr_pos_int=\count157
+\l__regex_start_pos_int=\count158
+\l__regex_success_pos_int=\count159
+\l__regex_curr_char_int=\count160
+\l__regex_curr_catcode_int=\count161
+\l__regex_last_char_int=\count162
+\l__regex_case_changed_char_int=\count163
+\l__regex_curr_state_int=\count164
+\l__regex_step_int=\count165
+\l__regex_min_active_int=\count166
+\l__regex_max_active_int=\count167
+\l__regex_replacement_csnames_int=\count168
+\l__regex_match_count_int=\count169
+\l__regex_min_submatch_int=\count170
+\l__regex_submatch_int=\count171
+\l__regex_zeroth_submatch_int=\count172
+\g__regex_trace_regex_int=\count173
 \c_empty_box=\box29
 \l_tmpa_box=\box30
 \l_tmpb_box=\box31
@@ -250,162 +275,194 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_coffin=\box40
 \g_tmpa_coffin=\box41
 \g_tmpb_coffin=\box42
+\l__coffin_bounding_shift_dim=\dimen125
+\l__coffin_left_corner_dim=\dimen126
+\l__coffin_right_corner_dim=\dimen127
+\l__coffin_bottom_corner_dim=\dimen128
+\l__coffin_top_corner_dim=\dimen129
+\l__coffin_scaled_total_height_dim=\dimen130
+\l__coffin_scaled_width_dim=\dimen131
 \c__coffin_empty_coffin=\box43
 \l__coffin_display_coffin=\box44
 \l__coffin_display_coord_coffin=\box45
 \l__coffin_display_pole_coffin=\box46
-\l__coffin_display_offset_dim=\dimen125
-\l__coffin_display_x_dim=\dimen126
-\l__coffin_display_y_dim=\dimen127
+\l__coffin_display_offset_dim=\dimen132
+\l__coffin_display_x_dim=\dimen133
+\l__coffin_display_y_dim=\dimen134
 \g__file_internal_ior=\read1
-\l__coffin_bounding_shift_dim=\dimen128
-\l__coffin_left_corner_dim=\dimen129
-\l__coffin_right_corner_dim=\dimen130
-\l__coffin_bottom_corner_dim=\dimen131
-\l__coffin_top_corner_dim=\dimen132
-\l__coffin_scaled_total_height_dim=\dimen133
-\l__coffin_scaled_width_dim=\dimen134
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count170
-\g__driver_pdf_object_int=\count171
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count172
-\g__xparse_grabber_int=\count173
-\l__xparse_m_args_int=\count174
-\l__xparse_mandatory_args_int=\count175
-\l__xparse_v_nesting_int=\count176
+\l__seq_internal_a_int=\count174
+\l__seq_internal_b_int=\count175
+\c__deprecation_minus_one=\count176
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/l3pdfm
+ode.def
+File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
+\l__driver_internal_box=\box47
+\l__driver_color_stack_int=\count177
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xpar
+se/xparse.sty
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count178
+\g__xparse_grabber_int=\count179
+\l__xparse_m_args_int=\count180
+\l__xparse_v_nesting_int=\count181
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/lipsum/lipsum.l
+td.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
+ty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.s
+ty
+Package: babel 2019/05/04 3.31 The Babel package
 
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/11/13 3.27 The Babel package
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/11/13 3.27 Babel switching mechanism
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel-german/ngerman.ldf
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/switch.
+def
+File: switch.def 2019/05/04 3.31 Babel switching mechanism
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel-german/
+ngerman.ldf
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel-german/
+ngermanb.ldf
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
 aphy)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count177
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.d
+ef
+File: babel.def 2019/05/04 3.31 Babel common definitions
+\babel@savecnt=\count182
 \U@D=\dimen135
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/xebabel.def (/usr/local/t
-exlive/2018/texmf-dist/tex/generic/babel/txtbabel.def))
-\bbl@dirlevel=\count178
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabe
+l.def)
+\bbl@dirlevel=\count183
 )
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `German (new orthography)' into the format.
+
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for english instead on input line 47.
+
+\l@ngerman = a dialect from \language0
 Package babel Info: Making " an active character on input line 121.
-)) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/american.ldf
-Language: american 2017/06/06 v3.3r English support from the babel system
-(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
-
-Package babel Warning: Last declared language option is `ngerman',
-(babel)                but the last processed one was `american'.
-(babel)                The main language cannot be set as both a global
-(babel)                and a package option. Use `main=ngerman' as
-(babel)                option. Reported on input line 484.
-
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+)))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/pdft
+excmds.sty
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/infw
+arerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/iflu
+atex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ltxc
+mds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/ifpd
+f.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count179
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+\etb@tempcnta=\count184
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/kvopti
+ons.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/kvse
+tkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/etex
+cmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+)))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.s
+ty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count180
-(/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count185
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.d
+ef
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+) (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count181
-\c@listtotal=\count182
-\c@listcount=\count183
-\c@liststart=\count184
-\c@liststop=\count185
-\c@citecount=\count186
-\c@citetotal=\count187
-\c@multicitecount=\count188
-\c@multicitetotal=\count189
-\c@instcount=\count190
-\c@maxnames=\count191
-\c@minnames=\count192
-\c@maxitems=\count193
-\c@minitems=\count194
-\c@citecounter=\count195
-\c@maxcitecounter=\count196
-\c@savedcitecounter=\count197
-\c@uniquelist=\count198
-\c@uniquename=\count199
-\c@refsection=\count266
-\c@refsegment=\count267
-\c@maxextratitle=\count268
-\c@maxextratitleyear=\count269
-\c@maxextraname=\count270
-\c@maxextradate=\count271
-\c@maxextraalpha=\count272
-\c@abbrvpenalty=\count273
-\c@highnamepenalty=\count274
-\c@lownamepenalty=\count275
-\c@maxparens=\count276
-\c@parenlevel=\count277
-\blx@tempcnta=\count278
-\blx@tempcntb=\count279
-\blx@tempcntc=\count280
-\blx@maxsection=\count281
-\blx@maxsegment@0=\count282
-\blx@notetype=\count283
-\blx@parenlevel@text=\count284
-\blx@parenlevel@foot=\count285
-\blx@sectionciteorder@0=\count286
-\blx@entrysetcounter=\count287
+\c@tabx@nest=\count186
+\c@listtotal=\count187
+\c@listcount=\count188
+\c@liststart=\count189
+\c@liststop=\count190
+\c@citecount=\count191
+\c@citetotal=\count192
+\c@multicitecount=\count193
+\c@multicitetotal=\count194
+\c@instcount=\count195
+\c@maxnames=\count196
+\c@minnames=\count197
+\c@maxitems=\count198
+\c@minitems=\count199
+\c@citecounter=\count266
+\c@maxcitecounter=\count267
+\c@savedcitecounter=\count268
+\c@uniquelist=\count269
+\c@uniquename=\count270
+\c@refsection=\count271
+\c@refsegment=\count272
+\c@maxextratitle=\count273
+\c@maxextratitleyear=\count274
+\c@maxextraname=\count275
+\c@maxextradate=\count276
+\c@maxextraalpha=\count277
+\c@abbrvpenalty=\count278
+\c@highnamepenalty=\count279
+\c@lownamepenalty=\count280
+\c@maxparens=\count281
+\c@parenlevel=\count282
+\blx@tempcnta=\count283
+\blx@tempcntb=\count284
+\blx@tempcntc=\count285
+\blx@maxsection=\count286
+\blx@maxsegment@0=\count287
+\blx@notetype=\count288
+\blx@parenlevel@text=\count289
+\blx@parenlevel@foot=\count290
+\blx@sectionciteorder@0=\count291
+\blx@entrysetcounter=\count292
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -416,99 +473,103 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip71
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\c@mincomprange=\count288
-\c@maxcomprange=\count289
-\c@mincompwidth=\count290
+\c@mincomprange=\count293
+\c@maxcomprange=\count294
+\c@mincompwidth=\count295
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-dm
+.def
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'apa.dbx' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/apa.dbx
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/ap
+a.dbx
 File: apa.dbx 2018/04/02 v7.7 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count291
-\c@savedafterword=\count292
-\c@annotator=\count293
-\c@savedannotator=\count294
-\c@author=\count295
-\c@savedauthor=\count296
-\c@bookauthor=\count297
-\c@savedbookauthor=\count298
-\c@commentator=\count299
-\c@savedcommentator=\count300
-\c@editor=\count301
-\c@savededitor=\count302
-\c@editora=\count303
-\c@savededitora=\count304
-\c@editorb=\count305
-\c@savededitorb=\count306
-\c@editorc=\count307
-\c@savededitorc=\count308
-\c@foreword=\count309
-\c@savedforeword=\count310
-\c@holder=\count311
-\c@savedholder=\count312
-\c@introduction=\count313
-\c@savedintroduction=\count314
-\c@namea=\count315
-\c@savednamea=\count316
-\c@nameb=\count317
-\c@savednameb=\count318
-\c@namec=\count319
-\c@savednamec=\count320
-\c@translator=\count321
-\c@savedtranslator=\count322
-\c@shortauthor=\count323
-\c@savedshortauthor=\count324
-\c@shorteditor=\count325
-\c@savedshorteditor=\count326
-\c@with=\count327
-\c@savedwith=\count328
-\c@writer=\count329
-\c@savedwriter=\count330
-\c@producer=\count331
-\c@savedproducer=\count332
-\c@execproducer=\count333
-\c@savedexecproducer=\count334
-\c@director=\count335
-\c@saveddirector=\count336
-\c@labelname=\count337
-\c@savedlabelname=\count338
-\c@institution=\count339
-\c@savedinstitution=\count340
-\c@lista=\count341
-\c@savedlista=\count342
-\c@listb=\count343
-\c@savedlistb=\count344
-\c@listc=\count345
-\c@savedlistc=\count346
-\c@listd=\count347
-\c@savedlistd=\count348
-\c@liste=\count349
-\c@savedliste=\count350
-\c@listf=\count351
-\c@savedlistf=\count352
-\c@location=\count353
-\c@savedlocation=\count354
-\c@organization=\count355
-\c@savedorganization=\count356
-\c@origlocation=\count357
-\c@savedoriglocation=\count358
-\c@origpublisher=\count359
-\c@savedorigpublisher=\count360
-\c@publisher=\count361
-\c@savedpublisher=\count362
-\c@language=\count363
-\c@savedlanguage=\count364
-\c@origlanguage=\count365
-\c@savedoriglanguage=\count366
-\c@pageref=\count367
-\c@savedpageref=\count368
+\c@afterword=\count296
+\c@savedafterword=\count297
+\c@annotator=\count298
+\c@savedannotator=\count299
+\c@author=\count300
+\c@savedauthor=\count301
+\c@bookauthor=\count302
+\c@savedbookauthor=\count303
+\c@commentator=\count304
+\c@savedcommentator=\count305
+\c@editor=\count306
+\c@savededitor=\count307
+\c@editora=\count308
+\c@savededitora=\count309
+\c@editorb=\count310
+\c@savededitorb=\count311
+\c@editorc=\count312
+\c@savededitorc=\count313
+\c@foreword=\count314
+\c@savedforeword=\count315
+\c@holder=\count316
+\c@savedholder=\count317
+\c@introduction=\count318
+\c@savedintroduction=\count319
+\c@namea=\count320
+\c@savednamea=\count321
+\c@nameb=\count322
+\c@savednameb=\count323
+\c@namec=\count324
+\c@savednamec=\count325
+\c@translator=\count326
+\c@savedtranslator=\count327
+\c@shortauthor=\count328
+\c@savedshortauthor=\count329
+\c@shorteditor=\count330
+\c@savedshorteditor=\count331
+\c@with=\count332
+\c@savedwith=\count333
+\c@writer=\count334
+\c@savedwriter=\count335
+\c@producer=\count336
+\c@savedproducer=\count337
+\c@execproducer=\count338
+\c@savedexecproducer=\count339
+\c@director=\count340
+\c@saveddirector=\count341
+\c@labelname=\count342
+\c@savedlabelname=\count343
+\c@institution=\count344
+\c@savedinstitution=\count345
+\c@lista=\count346
+\c@savedlista=\count347
+\c@listb=\count348
+\c@savedlistb=\count349
+\c@listc=\count350
+\c@savedlistc=\count351
+\c@listd=\count352
+\c@savedlistd=\count353
+\c@liste=\count354
+\c@savedliste=\count355
+\c@listf=\count356
+\c@savedlistf=\count357
+\c@location=\count358
+\c@savedlocation=\count359
+\c@organization=\count360
+\c@savedorganization=\count361
+\c@origlocation=\count362
+\c@savedoriglocation=\count363
+\c@origpublisher=\count364
+\c@savedorigpublisher=\count365
+\c@publisher=\count366
+\c@savedpublisher=\count367
+\c@language=\count368
+\c@savedlanguage=\count369
+\c@origlanguage=\count370
+\c@savedoriglanguage=\count371
+\c@pageref=\count372
+\c@savedpageref=\count373
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -523,40 +584,47 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip83
 \localshortauthorwidth=\skip84
 \localshorteditorwidth=\skip85
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/blx-co
+mpat.def
 File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count369
-\c@textcitetotal=\count370
-\c@textcitemaxnames=\count371
-\c@biburlnumpenalty=\count372
-\c@biburlucpenalty=\count373
-\c@biburllcpenalty=\count374
-\c@smartand=\count375
+\c@textcitecount=\count374
+\c@textcitetotal=\count375
+\c@textcitemaxnames=\count376
+\c@biburlnumpenalty=\count377
+\c@biburlucpenalty=\count378
+\c@biburllcpenalty=\count379
+\c@smartand=\count380
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/apa.bbx
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/ap
+a.bbx
 File: apa.bbx 2018/04/02 v7.7 APA biblatex references style
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/st
+andard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count376
-\c@bbx:relatedtotal=\count377
+\c@bbx:relatedcount=\count381
+\c@bbx:relatedtotal=\count382
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex-apa/apa.cbx
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/ap
+a.cbx
 File: apa.cbx 2018/04/02 v7.7 APA biblatex citation style
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
@@ -575,14 +643,743 @@ Package biblatex Info: Redefining '\citeauthor'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.cfg
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
+ex.cfg
 File: biblatex.cfg 
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspa
+ce.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/upquote/upquote.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote
+.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip86
+For additional information on amsmath, use the `?' option.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen136
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count383
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count384
+\leftroot@=\count385
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count386
+\DOTSCASE@=\count387
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box48
+\strutbox@=\box49
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count388
+\c@MaxMatrixCols=\count389
+\dotsspace@=\muskip17
+\c@parentequation=\count390
+\dspbrk@lvl=\count391
+\tag@help=\toks18
+\row@=\count392
+\column@=\count393
+\maxfields@=\count394
+\andhelp@=\toks19
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks20
+\multlinegap=\skip87
+\multlinetaggap=\skip88
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tools/xspace.st
+y
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/mparhack/mparha
+ck.sty
+Package: mparhack 2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.s
+ty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/acronym/acronym
+.sty
+Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/bigfoot/suffix.
+sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/xstring/xstri
+ng.sty
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/xstring/xstri
+ng.tex
+\integerpart=\count395
+\decimalpart=\count396
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize
+.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\AC@clearlist=\toks22
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
+ftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/blindtext/blind
+text.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+\c@blindtext=\count397
+\c@Blindtext=\count398
+\c@blind@countparstart=\count399
+\blind@countxx=\count400
+\blindtext@numBlindtext=\count401
+\blind@countyy=\count402
+\c@blindlist=\count403
+\c@blindlistlevel=\count404
+\c@blindlist@level=\count405
+\blind@listitem=\count406
+\c@blind@listcount=\count407
+\c@blind@levelcount=\count408
+\blind@mathformula=\count409
+\blind@Mathformula=\count410
+\c@blind@randomcount=\count411
+\c@blind@randommax=\count412
+\c@blind@pangramcount=\count413
+\c@blind@pangrammax=\count414
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
+sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box50
+\extrarowheight=\dimen148
+\NC@list=\toks23
+\extratabsurround=\skip89
+\backup@length=\skip90
+\ar@cellbox=\box51
+)
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
+\TX@cols=\count415
+\TX@ftn=\toks24
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
+3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen154
+\captionmargin@=\dimen155
+\captionwidth=\dimen156
+\caption@tempdima=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+)
+Package caption Info: KOMA-Script document class.
+\c@caption@flags=\count416
+\c@ContinuedFloat=\count417
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.s
+ty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count418
+\sf@farskip=\skip91
+\sf@captopadj=\dimen161
+\sf@capskip=\skip92
+\sf@nearskip=\skip93
+\c@subfigure=\count419
+\c@subfigure@save=\count420
+\c@lofdepth=\count421
+\c@subtable=\count422
+\c@subtable@save=\count423
+\c@lotdepth=\count424
+\sf@top=\skip94
+\sf@bottom=\skip95
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip96
+\LTright=\skip97
+\LTpre=\skip98
+\LTpost=\skip99
+\LTchunksize=\count425
+\LTcapwidth=\dimen162
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@cols=\count426
+\LT@rows=\count427
+\c@LT@tables=\count428
+\c@LT@chunks=\count429
+\LT@p@ftn=\toks25
+)
+Class scrreprt Info: longtable captions redefined on input line 201.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
+bs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen163
+\lightrulewidth=\dimen164
+\cmidrulewidth=\dimen165
+\belowrulesep=\dimen166
+\belowbottomsep=\dimen167
+\aboverulesep=\dimen168
+\abovetopsep=\dimen169
+\cmidrulesep=\dimen170
+\cmidrulekern=\dimen171
+\defaultaddspace=\dimen172
+\@cmidla=\count430
+\@cmidlb=\count431
+\@aboverulesep=\dimen173
+\@belowrulesep=\dimen174
+\@thisruleclass=\count432
+\@lastruleclass=\count433
+\@thisrulewidth=\dimen175
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/
+threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box56
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/multirow/multir
+ow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip100
+\multirow@cntb=\count434
+\multirow@dima=\skip101
+\bigstrutjot=\dimen176
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/listin
+gs.sty
+\lst@mode=\count435
+\lst@gtempboxa=\box57
+\lst@token=\toks26
+\lst@length=\count436
+\lst@currlwidth=\dimen177
+\lst@column=\count437
+\lst@pos=\count438
+\lst@lostspace=\dimen178
+\lst@width=\dimen179
+\lst@newlines=\count439
+\lst@lineno=\count440
+\lst@maxwidth=\dimen180
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstmis
+c.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count441
+\lst@skipnumbers=\count442
+\lst@framebox=\box58
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/listin
+gs.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlan
+g3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstmis
+c.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobs
+ub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/hobs
+ub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/ifxetex/ifxet
+ex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhoo
+k.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count443
+\Hy@pagecounter=\count444
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count445
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyp
+erref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4393.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count446
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen182
+\Fld@menulength=\count447
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count448
+\c@Item=\count449
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
+x.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count450
+\c@bookmark@seq@number=\count451
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunf
+ilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip102
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 270.
+Package hyperref Info: Option `linktocpage' set `true' on input line 270.
+Package hyperref Info: Option `breaklinks' set `true' on input line 270.
+Package hyperref Info: Option `pageanchor' set `true' on input line 270.
+Package hyperref Info: Option `plainpages' set `false' on input line 270.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 270.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 270.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 270.
+(./style/classicthesis.sty
+
+LaTeX Warning: You have requested package `style/classicthesis',
+               but the package provides `classicthesis'.
+
+Package: classicthesis 2011/12/17 v4.0 Typographic style for a classic-looking 
+thesis
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/graphics/dvipsn
+am.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/psnfss/mathpazo
+.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/bera/beramono.s
+ty
+Package: beramono 2004/01/31 (WaS)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/eulervm
+.sty
+Package: eulervm 2005/01/11 v4.0 (WaS)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.sty
+Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
+\MT@toks=\toks27
+\MT@count=\count452
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen185
+LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
+\MT@listname@count=\count453
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type-pdftex.def
+File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip103
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
+type.cfg
+File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
+))
+Package classicthesis Info: A4 paper, Palatino or other on input line 252.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = areaset
+(typearea)             BCOR = 14.22636pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 336.0pt
+(typearea)              \evensidemargin = 92.58438pt
+(typearea)              \oddsidemargin  = 24.38356pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 666.04997pt
+(typearea)              \topmargin      = -40.58768pt
+(typearea)              \headheight     = 15.95pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 252.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/textcase/textca
+se.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+Package classicthesis Info: Using pdftex/microtype for character spacing.Make s
+ure your pdftex is version 1.40 or higher. on input line 324.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+page2.sty
+Package: scrpage2 2019/02/01 v3.26b KOMA-Script package (page head and foot)
+
+Package scrpage2 Warning: usage of obsolete package!
+(scrpage2)                Package `scrpage2' is obsolete.
+(scrpage2)                You should not longer use package `scrpage2'.
+(scrpage2)                You should replace usage of package `scrpage2'
+(scrpage2)                by `scrlayer-scrpage' on input line 52.
+
+LaTeX Info: Redefining \pagemark on input line 180.
+)
+
+Class scrreprt Warning: Usage of package `titlesec' together
+(scrreprt)              with a KOMA-Script class is not recommended.
+(scrreprt)              I'd suggest to use the package only
+(scrreprt)              if you really need it, because it breaks several
+(scrreprt)              KOMA-Script features, i.e., option `headings' and
+(scrreprt)              the extended optional argument of the section
+(scrreprt)              commands.
+(scrreprt)              Nevertheless, using requested
+(scrreprt)              package `titlesec' on input line 355.
+
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titles
+ec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box59
+\beforetitleunit=\skip104
+\aftertitleunit=\skip105
+\ttl@plus=\dimen186
+\ttl@minus=\dimen187
+\ttl@toksa=\toks28
+\titlewidth=\dimen188
+\titlewidthlast=\dimen189
+\titlewidthfirst=\dimen190
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command detected
+(titlesec)                Using default spacing and no format.
+
+)
+
+Class scrreprt Warning: Activating an ugly workaround for a missing
+(scrreprt)              feature of package `titlesec` on input line 355.
+
+
+Class scrreprt Warning: Usage of package `tocloft' together
+(scrreprt)              with a KOMA-Script class is not recommended.
+(scrreprt)              I'd suggest to use options like `listof=entryprefix',
+(scrreprt)              commands like `\listoflofentryname' or
+(scrreprt)              `\listoflotentryname', and `\DeclareTOCStyleEntry' or
+(scrreprt)              `\RedeclareSectionCommand' instead of this package,
+(scrreprt)              because it breaks several KOMA-Script features of
+(scrreprt)              the list of figures, list of tables and table of
+(scrreprt)              contents, i.e., options like `listof=numbered',
+(scrreprt)              `listof=flat or `toc=flat', commands like
+(scrreprt)              `\BeforeTOCHead{...}' and `\AfterTOCHead{...}',
+(scrreprt)              `\BeforeStartingTOC{...}' and \AfterStartingTOC{...}',
+(scrreprt)              all features of `\DeclareTOCStyleEntry',
+(scrreprt)              and the ToC entry features of `\DeclareSecionCommand'
+(scrreprt)              and `\RedeclareSectionCommand' of levels
+(scrreprt)              `part', `section', `subsection',
+(scrreprt)              `subsubsection', `paragraph' and `subparagraph'.
+(scrreprt)              Nevertheless, using requested
+(scrreprt)              package `tocloft' on input line 404.
+
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tocloft/tocloft
+.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip106
+\cftbeforetoctitleskip=\skip107
+\cftaftertoctitleskip=\skip108
+\cftbeforepartskip=\skip109
+\cftpartnumwidth=\skip110
+\cftpartindent=\skip111
+\cftbeforechapskip=\skip112
+\cftchapindent=\skip113
+\cftchapnumwidth=\skip114
+\cftbeforesecskip=\skip115
+\cftsecindent=\skip116
+\cftsecnumwidth=\skip117
+\cftbeforesubsecskip=\skip118
+\cftsubsecindent=\skip119
+\cftsubsecnumwidth=\skip120
+\cftbeforesubsubsecskip=\skip121
+\cftsubsubsecindent=\skip122
+\cftsubsubsecnumwidth=\skip123
+\cftbeforeparaskip=\skip124
+\cftparaindent=\skip125
+\cftparanumwidth=\skip126
+\cftbeforesubparaskip=\skip127
+\cftsubparaindent=\skip128
+\cftsubparanumwidth=\skip129
+\cftbeforeloftitleskip=\skip130
+\cftafterloftitleskip=\skip131
+\cftbeforefigskip=\skip132
+\cftfigindent=\skip133
+\cftfignumwidth=\skip134
+\cftbeforelottitleskip=\skip135
+\cftafterlottitleskip=\skip136
+\cftbeforetabskip=\skip137
+\cfttabindent=\skip138
+\cfttabnumwidth=\skip139
+\cftbeforesubfigskip=\skip140
+\cftsubfigindent=\skip141
+\cftsubfignumwidth=\skip142
+\cftbeforesubtabskip=\skip143
+\cftsubtabindent=\skip144
+\cftsubtabnumwidth=\skip145
+)
+\newnumberwidth=\skip146
+\beforebibskip=\skip147
+\newchnumberwidth=\skip148
+\figurelabelwidth=\skip149
+\tablelabelwidth=\skip150
+\c@listings=\count454
+\cftbeforelistingsskip=\skip151
+\cftlistingsindent=\skip152
+\cftlistingsnumwidth=\skip153
+\c@loldepth=\count455
+\cftbeforeloltitleskip=\skip154
+\cftafterloltitleskip=\skip155
+\listingslabelwidth=\skip156
+Using KOMA-command "deffootnote" for footnote setup
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scr
+time.sty
+Package: scrtime 2019/02/01 v3.26b KOMA-Script package (time of LaTeX run)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/carlisle/remres
+et.sty
+
+Package remreset Warning: The remreset package is obsolete:
+(remreset)                \@removefomresset is defined.
+
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/liber
+tine.sty
+Package: libertine 2019/02/27 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval
+.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyv
+al.tex
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvut
+ils.tex
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+)
+\XKV@depth=\count456
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -596,9 +1393,85 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -662,471 +1535,536 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip86
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen136
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen137
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count378
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count379
-\leftroot@=\count380
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count381
-\DOTSCASE@=\count382
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen138
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count383
-\c@MaxMatrixCols=\count384
-\dotsspace@=\muskip17
-\c@parentequation=\count385
-\dspbrk@lvl=\count386
-\tag@help=\toks18
-\row@=\count387
-\column@=\count388
-\maxfields@=\count389
-\andhelp@=\toks19
-\eqnshift@=\dimen139
-\alignsep@=\dimen140
-\tagshift@=\dimen141
-\tagwidth@=\dimen142
-\totwidth@=\dimen143
-\lineht@=\dimen144
-\@envbody=\toks20
-\multlinegap=\skip87
-\multlinetaggap=\skip88
-\mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/mweights/mweigh
+ts.sty
+Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 94.
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/mparhack/mparhack.sty
-Package: mparhack 2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fixltx2e.sty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/fontaxes/fontax
+es.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+LaTeX Info: Redefining \oldstylenums on input line 489.
 
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/LinLi
+bertine_I.tex))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyv
+rb.sty
+Package: fancyvrb 2019/01/15
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count457
+\FV@InFile=\read3
+\FV@TabBox=\box60
+\c@FancyVerbLine=\count458
+\FV@StepNumber=\count459
+\FV@OutFile=\write4
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.s
+ty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip157
+\fb@frw=\dimen191
+\fb@frh=\dimen192
+\FrameRule=\dimen193
+\FrameSep=\dimen194
+)
+Package biblatex Info: Trying to load language 'ngerman' -> 'ngerman-apa'...
+Package biblatex Info: ... file 'ngerman-apa.lbx' found.
 
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/acronym/acronym.sty
-Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/bigfoot/suffix.sty
-Package: suffix 2006/07/15 1.5a Variant command support
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/loc
-al/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count390
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-\decimalpart=\count391
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/ng
+erman-apa.lbx
+File: ngerman-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/ng
+erman.lbx
+File: ngerman.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/ge
+rman-apa.lbx
+File: german-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/ge
+rman.lbx
+File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/ng
+erman.lbx
+File: ngerman.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
+Package biblatex Info: ... file 'german-apa.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/ge
+rman-apa.lbx
+File: german-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/ge
+rman.lbx
+File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+))))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count460
+\@quotereset=\count461
+(./FOM-Thesis.aux (./00-Abstract.aux))
+\openout1 = `FOM-Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 411.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 411.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TOsF on
+ input line 411.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/T1Lin
+uxLibertineT-TOsF.fd
+File: T1LinuxLibertineT-TOsF.fd 2017/03/20 (autoinst) Font definitions for T1/L
+inuxLibertineT-TOsF.
 )
-\AC@clearlist=\toks22
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 411.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `FOM-Thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'FOM-Thesis.bbl' found.
+(./FOM-Thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 411.
+Package biblatex Info: Reference segment=0 on input line 411.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/epstop
+df-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/grfext
+.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count392
-\c@Blindtext=\count393
-\c@blind@countparstart=\count394
-\blind@countxx=\count395
-\blindtext@numBlindtext=\count396
-\blind@countyy=\count397
-\c@blindlist=\count398
-\c@blindlistlevel=\count399
-\c@blindlist@level=\count400
-\blind@listitem=\count401
-\c@blind@listcount=\count402
-\c@blind@levelcount=\count403
-\blind@mathformula=\count404
-\blind@Mathformula=\count405
-\c@blind@randomcount=\count406
-\c@blind@randommax=\count407
-\c@blind@pangramcount=\count408
-\c@blind@pangrammax=\count409
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen147
-\ar@mcellbox=\box49
-\extrarowheight=\dimen148
-\NC@list=\toks23
-\extratabsurround=\skip89
-\backup@length=\skip90
-\ar@cellbox=\box50
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/caption/ltcapti
+on.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
-\TX@col@width=\dimen149
-\TX@old@table=\dimen150
-\TX@old@col=\dimen151
-\TX@target=\dimen152
-\TX@delta=\dimen153
-\TX@cols=\count410
-\TX@ftn=\toks24
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen154
-\captionmargin@=\dimen155
-\captionwidth=\dimen156
-\caption@tempdima=\dimen157
-\caption@indent=\dimen158
-\caption@parindent=\dimen159
-\caption@hangindent=\dimen160
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count462
+\AtBeginShipoutBox=\box61
+Package hyperref Info: Link coloring ON on input line 411.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/oberdiek/gett
+itlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-Package caption Info: KOMA-Script document class.
-\c@caption@flags=\count411
-\c@ContinuedFloat=\count412
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count413
-\sf@farskip=\skip91
-\sf@captopadj=\dimen161
-\sf@capskip=\skip92
-\sf@nearskip=\skip93
-\c@subfigure=\count414
-\c@subfigure@save=\count415
-\c@lofdepth=\count416
-\c@subtable=\count417
-\c@subtable@save=\count418
-\c@lotdepth=\count419
-\sf@top=\skip94
-\sf@bottom=\skip95
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip96
-\LTright=\skip97
-\LTpre=\skip98
-\LTpost=\skip99
-\LTchunksize=\count420
-\LTcapwidth=\dimen162
-\LT@head=\box51
-\LT@firsthead=\box52
-\LT@foot=\box53
-\LT@lastfoot=\box54
-\LT@cols=\count421
-\LT@rows=\count422
-\c@LT@tables=\count423
-\c@LT@chunks=\count424
-\LT@p@ftn=\toks25
+\c@section@level=\count463
 )
-Class scrreprt Info: longtable captions redefined on input line 201.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen163
-\lightrulewidth=\dimen164
-\cmidrulewidth=\dimen165
-\belowrulesep=\dimen166
-\belowbottomsep=\dimen167
-\aboverulesep=\dimen168
-\abovetopsep=\dimen169
-\cmidrulesep=\dimen170
-\cmidrulekern=\dimen171
-\defaultaddspace=\dimen172
-\@cmidla=\count425
-\@cmidlb=\count426
-\@aboverulesep=\dimen173
-\@belowrulesep=\dimen174
-\@thisruleclass=\count427
-\@lastruleclass=\count428
-\@thisrulewidth=\dimen175
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/threeparttable/threeparttable.sty
-Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box55
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip100
-\multirow@cntb=\count429
-\multirow@dima=\skip101
-\bigstrutjot=\dimen176
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count430
-\lst@gtempboxa=\box56
-\lst@token=\toks26
-\lst@length=\count431
-\lst@currlwidth=\dimen177
-\lst@column=\count432
-\lst@pos=\count433
-\lst@lostspace=\dimen178
-\lst@width=\dimen179
-\lst@newlines=\count434
-\lst@lineno=\count435
-\lst@maxwidth=\dimen180
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count436
-\lst@skipnumbers=\count437
-\lst@framebox=\box57
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
+LaTeX Info: Redefining \ref on input line 411.
+LaTeX Info: Redefining \pageref on input line 411.
+LaTeX Info: Redefining \nameref on input line 411.
+(./FOM-Thesis.out) (./FOM-Thesis.out)
+\@outlinefile=\write5
+\openout5 = `FOM-Thesis.out'.
+
+Class scrreprt Info: loading recommended package `bookmark'.
+(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
+(scrreprt)           because of handling of possible bookmark level gaps.
+(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
+(scrreprt)           `bookmarkpackage=false' before \begin{document} and
+(scrreprt)           you can avoid this message with `\usepackage{bookmark}'
+(scrreprt)           before \begin{document} on input line 411.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bookma
+rk.sty
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bkm-pd
+ftex.def
+File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
+Package auxhook Info: \AddLineBeginMainAux comes a little late,
+(auxhook)             because the main .aux file is already opened on input lin
+e 164.
+\BKM@id=\count464
 ))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2018/09/02 1.7 listings language file
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+LaTeX Info: Redefining \microtypecontext on input line 411.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TOsF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+\c@mv@tabular=\count465
+\c@mv@boldtabular=\count466
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 440.
+<images/bookdownplus-logo.pdf, id=4, 113.7048pt x 113.7048pt>
+File: images/bookdownplus-logo.pdf Graphic file (type pdf)
+<use images/bookdownplus-logo.pdf>
+Package pdftex.def Info: images/bookdownplus-logo.pdf  used on input line 445.
+(pdftex.def)             Requested size: 85.35826pt x 85.35818pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 451.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
+(Font)              scaled to size 20.74pt on input line 452.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 452.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 456.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 456.
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen181
-\Hy@linkcounter=\count438
-\Hy@pagecounter=\count439
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count440
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
 
-! Package hyperref Error: Wrong driver option `pdftex',
-(hyperref)                because pdfTeX in PDF mode is not detected.
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1pplj.f
+d
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-pp
+l.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeur on input line 456.
 
-See the hyperref package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4393 \ProcessKeyvalOptions{Hyp}
-                                  
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/uzeur.f
+d
+File: uzeur.fd 2005/01/11 v4.0 (WaS)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-eu
+r.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeus on input line 456.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/uzeus.f
+d
+File: uzeus.fd 2005/01/11 v4.0 (WaS)
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-eu
+s.cfg
+File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 456.
+
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/uzeuex.
+fd
+File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 456
+.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.
+fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[1
+
+
+
+{/Users/sebastiansaueruser/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map} <./images/bookdownplus-logo.pdf>] [2
+
+
+]
+\openout2 = `00-Abstract.aux'.
+
+(./00-Abstract.tex) [3
+
+] [4
+
+
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 50
+7.
+(./FOM-Thesis.toc
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 7.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 7.
+)
+\tf@toc=\write6
+\openout6 = `FOM-Thesis.toc'.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 512.
+[5]
+Package tocbasic Info: character protrusion at lof deactivated on input line 52
+7.
+(./FOM-Thesis.lof)
+\tf@lof=\write7
+\openout7 = `FOM-Thesis.lof'.
+
+[6
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 54
+0.
+(./FOM-Thesis.lot)
+\tf@lot=\write8
+\openout8 = `FOM-Thesis.lot'.
+
+[7]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 559.
+[8]
+chapter 1.
+
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface .
+
+LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
+ on input line 585.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/T1Lin
+uxLibertineMonoT-TLF.fd
+File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
+1/LinuxLibertineMonoT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 585.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineMonoT-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <10.95> n
+ot available
+(Font)              Font shape `T1/LinuxLibertineT-TOsF/m/it' tried instead on 
+input line 588.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 588.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <9> not a
+vailable
+(Font)              Font shape `T1/LinuxLibertineT-TOsF/m/it' tried instead on 
+input line 588.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 588.
+[1
+
+
+
+
+
+
+] [2
+
+
+]
+chapter 2.
+LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TOsF o
+n input line 599.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/TS1Li
+nuxLibertineT-TOsF.fd
+File: TS1LinuxLibertineT-TOsF.fd 2017/03/20 (autoinst) Font definitions for TS1
+/LinuxLibertineT-TOsF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TOsF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 599.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TOsF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[3] [4
+
+
+]
+chapter 3.
+<FOM-Thesis_files/figure-latex/apa1-1.pdf, id=181, 433.62pt x 266.9975pt>
+File: FOM-Thesis_files/figure-latex/apa1-1.pdf Graphic file (type pdf)
+<use FOM-Thesis_files/figure-latex/apa1-1.pdf>
+Package pdftex.def Info: FOM-Thesis_files/figure-latex/apa1-1.pdf  used on inpu
+t line 632.
+(pdftex.def)             Requested size: 302.39795pt x 186.20844pt.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 643.
+[5 <./FOM-Thesis_files/figure-latex/apa1-1.pdf>]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 680.
+[6]
+chapter 4.
+[7
+
+
+] [8
+
+
+]
+chapter 5.
+<FOM-Thesis_files/figure-latex/fig1-1.pdf, id=216, 433.62pt x 266.9975pt>
+File: FOM-Thesis_files/figure-latex/fig1-1.pdf Graphic file (type pdf)
+<use FOM-Thesis_files/figure-latex/fig1-1.pdf>
+Package pdftex.def Info: FOM-Thesis_files/figure-latex/fig1-1.pdf  used on inpu
+t line 701.
+(pdftex.def)             Requested size: 268.80103pt x 165.52043pt.
+[9 <./FOM-Thesis_files/figure-latex/fig1-1.pdf>] [10]
+chapter 6.
+[11
+
+
+] [12
+
+
+]
+chapter without number
+[13] [14
+
+
+]
+chapter A.
+
+Overfull \hbox (13.24736pt too wide) in paragraph at lines 761--762
+\T1/LinuxLibertineT-TOsF/m/n/10.95 so ist ein Überblick über Grund-la-gen-the-m
+en sin-nvoll. Diese The-men er-scheinen
+ []
+
+[15] [16
+
+
+]
+chapter B.
+
+Overfull \hbox (9.33029pt too wide) in paragraph at lines 768--769
+\T1/LinuxLibertineT-TOsF/m/n/10.95 ohne uner-laubte Hil-fe ange-fer-tigt wor-de
+n ist, ins-beson-dere dass ich alle Stellen,
+ []
+
+
+Overfull \hbox (45.45334pt too wide) in paragraph at lines 768--769
+\T1/LinuxLibertineT-TOsF/m/n/10.95 die von mir ein-gere-ichte schriftliche Ver-
+sion mit der dig-i-tal-en Ver-sion u??bereinstimmt.
+ []
+
+
+Overfull \hbox (7.98694pt too wide) in paragraph at lines 768--769
+\T1/LinuxLibertineT-TOsF/m/n/10.95 kein-er Prä-fungs-be-hörde/Prü-fungsstelle v
+orgele-gen hat. Ich erk-läre mich damit
+ []
+
+[17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
+(./FOM-Thesis.aux (./00-Abstract.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 793.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 793.
+Package rerunfilecheck Info: File `FOM-Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'FOM-Thesis.run.xml'.
+\openout1 = `FOM-Thesis.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 26129 strings out of 492933
- 475760 string characters out of 6133144
- 1104415 words of memory out of 5000000
- 29918 multiletter control sequences out of 15000+600000
- 535336 words of font info for 26 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 45i,1n,67p,9089b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34614 strings out of 494553
+ 629984 string characters out of 6174236
+ 1352383 words of memory out of 5000000
+ 37678 multiletter control sequences out of 15000+600000
+ 672201 words of font info for 131 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 80i,13n,131p,9089b,5504s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/enc/dvips/liberti
+ne/lbtn_naooyc.enc}{/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/
+enc/dvips/libertine/lbtn_oie7e6.enc}{/Users/sebastiansaueruser/Library/TinyTeX/
+texmf-dist/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{/Users/sebastiansaueruser
+/Library/TinyTeX/texmf-dist/fonts/enc/dvips/libertine/lbtn_hj4mhx.enc}{/Users/s
+ebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/enc/dvips/libertine/lbtn_pjx
+d67.enc}{/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/enc/dvips/l
+ibertine/lbtn_v2xmgd.enc}</Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/
+fonts/type1/public/libertine/LinLibertineMT.pfb></Users/sebastiansaueruser/Libr
+ary/TinyTeX/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></Users/s
+ebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/type1/public/libertine/LinLi
+bertineTB.pfb></Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/type1
+/public/libertine/LinLibertineTI.pfb></Users/sebastiansaueruser/Library/TinyTeX
+/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></Users/sebastiansauer
+user/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></
+Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts
+/euler/eurm10.pfb></Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eurm7.pfb>
+Output written on FOM-Thesis.pdf (25 pages, 445979 bytes).
+PDF statistics:
+ 379 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 26784 words of extra memory for PDF output out of 29859 (max. 10000000)
 
-No pages of output.

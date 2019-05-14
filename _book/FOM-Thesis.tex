@@ -76,7 +76,7 @@
 \newcommand{\myUni}{FOM Hochschule f\"ur Oekonomie und Management\xspace}
 \newcommand{\myLocation}{München\xspace}
 \newcommand{\myTime}{Abgabedatum: 2019-05-02\xspace}
-\newcommand{\myVersion}{version 4.0\xspace}
+\newcommand{\myVersion}{v0.0.1\xspace}
 
 %----------------------------------------------------------------------------------------
 %	USEFUL COMMANDS
@@ -448,8 +448,8 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \vspace{3cm}
 
 \begingroup
-\LARGE
-\color{Maroon}\spacedallcaps{Das ist der Titel der Thesis} \\Das ist der Untertitel\\ \bigskip % Thesis title
+\huge
+\color{Maroon}\textsc{Das ist der Titel der Thesis} \LARGE \\Das ist der Untertitel\\ \bigskip % Thesis title
 
 \endgroup
 
@@ -615,6 +615,8 @@ With \texttt{bookdownplus} users can
 
 Full documentation can be found in the book \href{https://bookdown.org/baydap/bookdownplus}{R bookdownplus Textbook}. The webpage looks so-so, while the \href{https://bookdown.org/baydap/bookdownplus/bookdownplus.pdf}{pdf file} might give you a little surprise.
 
+``So könnte man es machen'', sinnierte sie.
+
 \graffito{Leider reicht der Platz dieser Randnotiz nicht für den gesamten Beweis.}
 
 \hypertarget{beispiele-fur-tabellen-und-abbiludngen}{%
@@ -623,7 +625,7 @@ Full documentation can be found in the book \href{https://bookdown.org/baydap/bo
 \hypertarget{alles-apa-konform}{%
 \section{Alles APA-konform}\label{alles-apa-konform}}
 
-Abbildung \ref{fig:apa1} zeigt eine APA-konforme Abbildung.
+\noindent Abbildung \ref{fig:apa1} zeigt eine APA-konforme Abbildung.
 
 \begin{figure}[h]
 
@@ -634,7 +636,7 @@ Abbildung \ref{fig:apa1} zeigt eine APA-konforme Abbildung.
 \caption{APA-konform}\label{fig:apa1}
 \end{figure}
 
-Tabelle \ref{tab:mtcars1} zeigt eine APA-konforme Tabelle.
+\noindent Tabelle \ref{tab:mtcars1} zeigt eine APA-konforme Tabelle.
 
 \begin{table}[!h]
 
@@ -654,8 +656,6 @@ Valiant & 18.1 & 6 & 225 & 105\\
 \end{tabular}
 \end{table}
 
-Und diese hier auch (s. Tabelle \ref{tab:mtcars2}).
-
 \begin{table}[tbp]
 \begin{center}
 \begin{threeparttable}
@@ -671,6 +671,10 @@ dist & 42.98 & 25.77 & 2.00 & 120.00\\
 \end{threeparttable}
 \end{center}
 \end{table}
+
+\noindent Und diese hier auch (s. Tabelle \ref{tab:mtcars2}).
+
+After a table, a diagram, a title or at the beginning of a new page, an paragraph should \emph{not} be indended.
 
 \hypertarget{recommendations}{%
 \chapter{Recommendations}\label{recommendations}}
