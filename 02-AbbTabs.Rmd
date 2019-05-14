@@ -6,7 +6,7 @@
 
 
 
-Abbildung \@ref(fig:apa1) zeigt eine APA-konforme Abbildung.
+\noindent Abbildung \@ref(fig:apa1) zeigt eine APA-konforme Abbildung.
 
 ```{r apa1, fig.cap = "APA-konform"}
 data(mtcars)
@@ -20,7 +20,7 @@ mtcars %>%
 ```
 
 
-Tabelle \@ref(tab:mtcars1) zeigt eine APA-konforme Tabelle.
+\noindent Tabelle \@ref(tab:mtcars1) zeigt eine APA-konforme Tabelle.
 
 ```{r mtcars1}
 mtcars %>% 
@@ -34,7 +34,6 @@ mtcars %>%
 ```
 
 
-Und diese hier auch (s. Tabelle \@ref(tab:mtcars2)).
 ```{r mtcars2, results = "asis"}
 my_table <- t(apply(cars, 2, function(x) # Create data
   round(c(Mean = mean(x), SD = sd(x), Min = min(x), Max = max(x)), 2)
@@ -47,3 +46,8 @@ apa_table(
 )
 
 ```
+
+\noindent Und diese hier auch (s. Tabelle \@ref(tab:mtcars2)). 
+
+
+After a table, a diagram, a title or at the beginning of a new page, an paragraph should *not* be indended.

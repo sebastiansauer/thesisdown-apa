@@ -42,6 +42,7 @@ With `bookdownplus` users can
 Full documentation can be found in the book [R bookdownplus Textbook](https://bookdown.org/baydap/bookdownplus). The webpage looks so-so, while the [pdf file](https://bookdown.org/baydap/bookdownplus/bookdownplus.pdf) might give you a little surprise.  
 
 
+"So könnte man es machen", sinnierte sie.
 
 \graffito{Leider reicht der Platz dieser Randnotiz nicht für den gesamten Beweis.}
 
