@@ -3,7 +3,13 @@ This repo provides an APA-friendly version of the thesisdown/bookdown/markdown t
 
 The examples and some some formatting are suited to the German language.
 
+---
+
 !EARLY DEVELOPMENT!
+
+---
+
+
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
@@ -19,6 +25,9 @@ The examples and some some formatting are suited to the German language.
 
 [![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
 
+
+
+# Dependencies
 
 
 This work builds heavily on the following open access sources (amongst others):
@@ -41,3 +50,33 @@ This work builds heavily on the following open access sources (amongst others):
 
 
 
+
+# Installation
+
+
+Make sure that all dependencies are installed (see above), in recent versions. Download or clone this repo. 
+
+
+
+# Getting started
+
+Open the RProj-File (using RStudio) or, alternatively, open `index.Rmd`. Use the following files:
+
+- `index.Rmd` controls some meta data such as title, author, school name, etc.
+- `bookdown.yml` control the chapter files. Add your chapter files there.
+- The chapters of the thesis/report stat with two digits such as `00-abstract.Rmd` and so on. Populate the chapter files (or create new ones) to your liking.
+- use `bib/bib.bib` as your Bib(La)tex file. 
+- Some output options are controlled by `_output.yml`.
+- Render the PDF file using the "knit" button or the R file "RENDER-BOOK.RMD".
+
+
+
+The general makeup and workflow is based on [bookdown](https://bookdown.org/yihui/bookdown/), go there for a startup tutorial.
+
+
+# Stylesheets used
+
+
+The main stylesheet used is [ClassicThesis](https://ctan.org/pkg/classicthesis?lang=en), but I've changed some details in order to fit it to [APA](https://www.apa.org/) wishes, and to German text formatting.
+
+The bookdown infrastructure is used, which in turn builds on (R)Markdown including [knitr](https://yihui.name/knitr/), and Pandoc. And the unnamed god, and many more.
