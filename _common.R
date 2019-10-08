@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
   fig.asp =  0.618,  # 1 / phi
   fig.show = "hold",
   fig.pos = "h",
-  fig.showtext=TRUE,
+  #fig.showtext=TRUE,
   dev = "pdf",
   size = "tiny"
 )
