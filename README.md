@@ -35,3 +35,9 @@ This work builds heavily on the following open access sources (amongst others):
 5 [Pandoc](https://pandoc.org/)
 
 6 [R](https://cran.r-project.org/)
+
+7 TeX, I recommend [TinyTex](https://yihui.name/tinytex/)
+
+
+
+
