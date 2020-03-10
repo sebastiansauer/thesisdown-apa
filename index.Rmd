@@ -1,6 +1,6 @@
 --- 
-title: "Das ist der Titel der Thesis"
-subtitle: "Das ist der Untertitel"
+title: "Das ist der Titel der Thesis, und sie ist cool"
+subtitle: "Das ist der Untertitel und auch nicht schlecht"
 author: "Sebastian Sauer"
 date: "2019-05-02"
 bibliography: [bib/bib.bib]

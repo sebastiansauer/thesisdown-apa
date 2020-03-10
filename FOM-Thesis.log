@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.14)  14 MAY 2019 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.10)  8 OCT 2019 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -139,11 +139,11 @@ Class scrreprt Info: Redefining `\numberline' on input line 6799.
 ty
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.
 sty
-Package: expl3 2019-05-09 L3 programming layer (loader) 
+Package: expl3 2019-07-01 L3 programming layer (loader) 
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-
 code.tex
-Package: expl3 2019-05-09 L3 programming layer (code)
+Package: expl3 2019-07-01 L3 programming layer (code)
 \c_max_int=\count91
 \l_tmpa_int=\count92
 \l_tmpb_int=\count93
@@ -201,51 +201,53 @@ Package: expl3 2019-05-09 L3 programming layer (code)
 \l__sort_A_int=\count126
 \l__sort_B_int=\count127
 \l__sort_C_int=\count128
-\l__tl_analysis_normal_int=\count129
-\l__tl_analysis_index_int=\count130
-\l__tl_analysis_nesting_int=\count131
-\l__tl_analysis_type_int=\count132
-\l__regex_internal_a_int=\count133
-\l__regex_internal_b_int=\count134
-\l__regex_internal_c_int=\count135
-\l__regex_balance_int=\count136
-\l__regex_group_level_int=\count137
-\l__regex_mode_int=\count138
-\c__regex_cs_in_class_mode_int=\count139
-\c__regex_cs_mode_int=\count140
-\l__regex_catcodes_int=\count141
-\l__regex_default_catcodes_int=\count142
-\c__regex_catcode_D_int=\count143
-\c__regex_catcode_S_int=\count144
-\c__regex_catcode_L_int=\count145
-\c__regex_catcode_O_int=\count146
-\c__regex_catcode_A_int=\count147
-\c__regex_all_catcodes_int=\count148
-\l__regex_show_lines_int=\count149
-\l__regex_min_state_int=\count150
-\l__regex_max_state_int=\count151
-\l__regex_left_state_int=\count152
-\l__regex_right_state_int=\count153
-\l__regex_capturing_group_int=\count154
-\l__regex_min_pos_int=\count155
-\l__regex_max_pos_int=\count156
-\l__regex_curr_pos_int=\count157
-\l__regex_start_pos_int=\count158
-\l__regex_success_pos_int=\count159
-\l__regex_curr_char_int=\count160
-\l__regex_curr_catcode_int=\count161
-\l__regex_last_char_int=\count162
-\l__regex_case_changed_char_int=\count163
-\l__regex_curr_state_int=\count164
-\l__regex_step_int=\count165
-\l__regex_min_active_int=\count166
-\l__regex_max_active_int=\count167
-\l__regex_replacement_csnames_int=\count168
-\l__regex_match_count_int=\count169
-\l__regex_min_submatch_int=\count170
-\l__regex_submatch_int=\count171
-\l__regex_zeroth_submatch_int=\count172
-\g__regex_trace_regex_int=\count173
+\l__str_internal_int=\count129
+\c__str_replacement_char_int=\count130
+\l__tl_analysis_normal_int=\count131
+\l__tl_analysis_index_int=\count132
+\l__tl_analysis_nesting_int=\count133
+\l__tl_analysis_type_int=\count134
+\l__regex_internal_a_int=\count135
+\l__regex_internal_b_int=\count136
+\l__regex_internal_c_int=\count137
+\l__regex_balance_int=\count138
+\l__regex_group_level_int=\count139
+\l__regex_mode_int=\count140
+\c__regex_cs_in_class_mode_int=\count141
+\c__regex_cs_mode_int=\count142
+\l__regex_catcodes_int=\count143
+\l__regex_default_catcodes_int=\count144
+\c__regex_catcode_D_int=\count145
+\c__regex_catcode_S_int=\count146
+\c__regex_catcode_L_int=\count147
+\c__regex_catcode_O_int=\count148
+\c__regex_catcode_A_int=\count149
+\c__regex_all_catcodes_int=\count150
+\l__regex_show_lines_int=\count151
+\l__regex_min_state_int=\count152
+\l__regex_max_state_int=\count153
+\l__regex_left_state_int=\count154
+\l__regex_right_state_int=\count155
+\l__regex_capturing_group_int=\count156
+\l__regex_min_pos_int=\count157
+\l__regex_max_pos_int=\count158
+\l__regex_curr_pos_int=\count159
+\l__regex_start_pos_int=\count160
+\l__regex_success_pos_int=\count161
+\l__regex_curr_char_int=\count162
+\l__regex_curr_catcode_int=\count163
+\l__regex_last_char_int=\count164
+\l__regex_case_changed_char_int=\count165
+\l__regex_curr_state_int=\count166
+\l__regex_step_int=\count167
+\l__regex_min_active_int=\count168
+\l__regex_max_active_int=\count169
+\l__regex_replacement_csnames_int=\count170
+\l__regex_match_count_int=\count171
+\l__regex_min_submatch_int=\count172
+\l__regex_submatch_int=\count173
+\l__regex_zeroth_submatch_int=\count174
+\g__regex_trace_regex_int=\count175
 \c_empty_box=\box29
 \l_tmpa_box=\box30
 \l_tmpb_box=\box31
@@ -290,23 +292,24 @@ Package: expl3 2019-05-09 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen133
 \l__coffin_display_y_dim=\dimen134
 \g__file_internal_ior=\read1
-\l__seq_internal_a_int=\count174
-\l__seq_internal_b_int=\count175
-\c__deprecation_minus_one=\count176
+\l__seq_internal_a_int=\count176
+\l__seq_internal_b_int=\count177
+\c__deprecation_minus_one=\count178
 )
-(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/l3pdfm
-ode.def
-File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_internal_box=\box47
-\l__driver_color_stack_int=\count177
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
+kend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
+ode
+\l__kernel_color_stack_int=\count179
+\l__pdf_internal_box=\box47
 ))
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xpar
 se/xparse.sty
-Package: xparse 2019-05-03 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count178
-\g__xparse_grabber_int=\count179
-\l__xparse_m_args_int=\count180
-\l__xparse_v_nesting_int=\count181
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count180
+\g__xparse_grabber_int=\count181
+\l__xparse_m_args_int=\count182
+\l__xparse_v_nesting_int=\count183
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -322,11 +325,11 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.s
 ty
-Package: babel 2019/05/04 3.31 The Babel package
+Package: babel 2019/06/03 3.32 The Babel package
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/switch.
 def
-File: switch.def 2019/05/04 3.31 Babel switching mechanism
+File: switch.def 2019/06/03 3.32 Babel switching mechanism
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel-german/
 ngerman.ldf
@@ -340,25 +343,44 @@ aphy)
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.d
 ef
-File: babel.def 2019/05/04 3.31 Babel common definitions
-\babel@savecnt=\count182
+File: babel.def 2019/06/03 3.32 Babel common definitions
+\babel@savecnt=\count184
 \U@D=\dimen135
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabe
 l.def)
-\bbl@dirlevel=\count183
+\bbl@dirlevel=\count185
 )
-
-Package babel Warning: No hyphenation patterns were preloaded for
-(babel)                the language `German (new orthography)' into the format.
-
-(babel)                Please, configure your TeX system to add them and
-(babel)                rebuild the format. Now I will use the patterns
-(babel)                preloaded for english instead on input line 47.
-
-\l@ngerman = a dialect from \language0
 Package babel Info: Making " an active character on input line 121.
-)))
+))
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel-english
+/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/babel-english
+/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+
+Package babel Warning: Last declared language option is `ngerman',
+(babel)                but the last processed one was `american'.
+(babel)                The main language cannot be set as both a global
+(babel)                and a package option. Use `main=ngerman' as
+(babel)                option. Reported on input line 553.
+
+)
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
 ex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
@@ -393,7 +415,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
 ox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count184
+\etb@tempcnta=\count186
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/kvopti
 ons.sty
@@ -410,7 +432,7 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.s
 ty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count185
+\lrq@indent=\count187
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/logreq/logreq.d
 ef
@@ -422,47 +444,47 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count186
-\c@listtotal=\count187
-\c@listcount=\count188
-\c@liststart=\count189
-\c@liststop=\count190
-\c@citecount=\count191
-\c@citetotal=\count192
-\c@multicitecount=\count193
-\c@multicitetotal=\count194
-\c@instcount=\count195
-\c@maxnames=\count196
-\c@minnames=\count197
-\c@maxitems=\count198
-\c@minitems=\count199
-\c@citecounter=\count266
-\c@maxcitecounter=\count267
-\c@savedcitecounter=\count268
-\c@uniquelist=\count269
-\c@uniquename=\count270
-\c@refsection=\count271
-\c@refsegment=\count272
-\c@maxextratitle=\count273
-\c@maxextratitleyear=\count274
-\c@maxextraname=\count275
-\c@maxextradate=\count276
-\c@maxextraalpha=\count277
-\c@abbrvpenalty=\count278
-\c@highnamepenalty=\count279
-\c@lownamepenalty=\count280
-\c@maxparens=\count281
-\c@parenlevel=\count282
-\blx@tempcnta=\count283
-\blx@tempcntb=\count284
-\blx@tempcntc=\count285
-\blx@maxsection=\count286
-\blx@maxsegment@0=\count287
-\blx@notetype=\count288
-\blx@parenlevel@text=\count289
-\blx@parenlevel@foot=\count290
-\blx@sectionciteorder@0=\count291
-\blx@entrysetcounter=\count292
+\c@tabx@nest=\count188
+\c@listtotal=\count189
+\c@listcount=\count190
+\c@liststart=\count191
+\c@liststop=\count192
+\c@citecount=\count193
+\c@citetotal=\count194
+\c@multicitecount=\count195
+\c@multicitetotal=\count196
+\c@instcount=\count197
+\c@maxnames=\count198
+\c@minnames=\count199
+\c@maxitems=\count266
+\c@minitems=\count267
+\c@citecounter=\count268
+\c@maxcitecounter=\count269
+\c@savedcitecounter=\count270
+\c@uniquelist=\count271
+\c@uniquename=\count272
+\c@refsection=\count273
+\c@refsegment=\count274
+\c@maxextratitle=\count275
+\c@maxextratitleyear=\count276
+\c@maxextraname=\count277
+\c@maxextradate=\count278
+\c@maxextraalpha=\count279
+\c@abbrvpenalty=\count280
+\c@highnamepenalty=\count281
+\c@lownamepenalty=\count282
+\c@maxparens=\count283
+\c@parenlevel=\count284
+\blx@tempcnta=\count285
+\blx@tempcntb=\count286
+\blx@tempcntc=\count287
+\blx@maxsection=\count288
+\blx@maxsegment@0=\count289
+\blx@notetype=\count290
+\blx@parenlevel@text=\count291
+\blx@parenlevel@foot=\count292
+\blx@sectionciteorder@0=\count293
+\blx@entrysetcounter=\count294
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -473,9 +495,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip71
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\c@mincomprange=\count293
-\c@maxcomprange=\count294
-\c@mincompwidth=\count295
+\c@mincomprange=\count295
+\c@maxcomprange=\count296
+\c@mincompwidth=\count297
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -492,84 +514,84 @@ File: apa.dbx 2018/04/02 v7.7 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count296
-\c@savedafterword=\count297
-\c@annotator=\count298
-\c@savedannotator=\count299
-\c@author=\count300
-\c@savedauthor=\count301
-\c@bookauthor=\count302
-\c@savedbookauthor=\count303
-\c@commentator=\count304
-\c@savedcommentator=\count305
-\c@editor=\count306
-\c@savededitor=\count307
-\c@editora=\count308
-\c@savededitora=\count309
-\c@editorb=\count310
-\c@savededitorb=\count311
-\c@editorc=\count312
-\c@savededitorc=\count313
-\c@foreword=\count314
-\c@savedforeword=\count315
-\c@holder=\count316
-\c@savedholder=\count317
-\c@introduction=\count318
-\c@savedintroduction=\count319
-\c@namea=\count320
-\c@savednamea=\count321
-\c@nameb=\count322
-\c@savednameb=\count323
-\c@namec=\count324
-\c@savednamec=\count325
-\c@translator=\count326
-\c@savedtranslator=\count327
-\c@shortauthor=\count328
-\c@savedshortauthor=\count329
-\c@shorteditor=\count330
-\c@savedshorteditor=\count331
-\c@with=\count332
-\c@savedwith=\count333
-\c@writer=\count334
-\c@savedwriter=\count335
-\c@producer=\count336
-\c@savedproducer=\count337
-\c@execproducer=\count338
-\c@savedexecproducer=\count339
-\c@director=\count340
-\c@saveddirector=\count341
-\c@labelname=\count342
-\c@savedlabelname=\count343
-\c@institution=\count344
-\c@savedinstitution=\count345
-\c@lista=\count346
-\c@savedlista=\count347
-\c@listb=\count348
-\c@savedlistb=\count349
-\c@listc=\count350
-\c@savedlistc=\count351
-\c@listd=\count352
-\c@savedlistd=\count353
-\c@liste=\count354
-\c@savedliste=\count355
-\c@listf=\count356
-\c@savedlistf=\count357
-\c@location=\count358
-\c@savedlocation=\count359
-\c@organization=\count360
-\c@savedorganization=\count361
-\c@origlocation=\count362
-\c@savedoriglocation=\count363
-\c@origpublisher=\count364
-\c@savedorigpublisher=\count365
-\c@publisher=\count366
-\c@savedpublisher=\count367
-\c@language=\count368
-\c@savedlanguage=\count369
-\c@origlanguage=\count370
-\c@savedoriglanguage=\count371
-\c@pageref=\count372
-\c@savedpageref=\count373
+\c@afterword=\count298
+\c@savedafterword=\count299
+\c@annotator=\count300
+\c@savedannotator=\count301
+\c@author=\count302
+\c@savedauthor=\count303
+\c@bookauthor=\count304
+\c@savedbookauthor=\count305
+\c@commentator=\count306
+\c@savedcommentator=\count307
+\c@editor=\count308
+\c@savededitor=\count309
+\c@editora=\count310
+\c@savededitora=\count311
+\c@editorb=\count312
+\c@savededitorb=\count313
+\c@editorc=\count314
+\c@savededitorc=\count315
+\c@foreword=\count316
+\c@savedforeword=\count317
+\c@holder=\count318
+\c@savedholder=\count319
+\c@introduction=\count320
+\c@savedintroduction=\count321
+\c@namea=\count322
+\c@savednamea=\count323
+\c@nameb=\count324
+\c@savednameb=\count325
+\c@namec=\count326
+\c@savednamec=\count327
+\c@translator=\count328
+\c@savedtranslator=\count329
+\c@shortauthor=\count330
+\c@savedshortauthor=\count331
+\c@shorteditor=\count332
+\c@savedshorteditor=\count333
+\c@with=\count334
+\c@savedwith=\count335
+\c@writer=\count336
+\c@savedwriter=\count337
+\c@producer=\count338
+\c@savedproducer=\count339
+\c@execproducer=\count340
+\c@savedexecproducer=\count341
+\c@director=\count342
+\c@saveddirector=\count343
+\c@labelname=\count344
+\c@savedlabelname=\count345
+\c@institution=\count346
+\c@savedinstitution=\count347
+\c@lista=\count348
+\c@savedlista=\count349
+\c@listb=\count350
+\c@savedlistb=\count351
+\c@listc=\count352
+\c@savedlistc=\count353
+\c@listd=\count354
+\c@savedlistd=\count355
+\c@liste=\count356
+\c@savedliste=\count357
+\c@listf=\count358
+\c@savedlistf=\count359
+\c@location=\count360
+\c@savedlocation=\count361
+\c@organization=\count362
+\c@savedorganization=\count363
+\c@origlocation=\count364
+\c@savedoriglocation=\count365
+\c@origpublisher=\count366
+\c@savedorigpublisher=\count367
+\c@publisher=\count368
+\c@savedpublisher=\count369
+\c@language=\count370
+\c@savedlanguage=\count371
+\c@origlanguage=\count372
+\c@savedoriglanguage=\count373
+\c@pageref=\count374
+\c@savedpageref=\count375
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -597,13 +619,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/biblat
 ex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count374
-\c@textcitetotal=\count375
-\c@textcitemaxnames=\count376
-\c@biburlnumpenalty=\count377
-\c@biburlucpenalty=\count378
-\c@biburllcpenalty=\count379
-\c@smartand=\count380
+\c@textcitecount=\count376
+\c@textcitetotal=\count377
+\c@textcitemaxnames=\count378
+\c@biburlnumpenalty=\count379
+\c@biburlucpenalty=\count380
+\c@biburllcpenalty=\count381
+\c@smartand=\count382
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -617,8 +639,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/st
 andard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count381
-\c@bbx:relatedtotal=\count382
+\c@bbx:relatedcount=\count383
+\c@bbx:relatedtotal=\count384
 ))
 Package biblatex Info: Trying to load citation style 'apa'...
 Package biblatex Info: ... file 'apa.cbx' found.
@@ -656,7 +678,165 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 .sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-)
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
 .sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
@@ -682,13 +862,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count383
+\inf@bad=\count385
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count384
-\leftroot@=\count385
+\uproot@=\count386
+\leftroot@=\count387
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count386
-\DOTSCASE@=\count387
+\classnum@=\count388
+\DOTSCASE@=\count389
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -697,15 +877,15 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen138
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count388
-\c@MaxMatrixCols=\count389
+\macc@depth=\count390
+\c@MaxMatrixCols=\count391
 \dotsspace@=\muskip17
-\c@parentequation=\count390
-\dspbrk@lvl=\count391
+\c@parentequation=\count392
+\dspbrk@lvl=\count393
 \tag@help=\toks18
-\row@=\count392
-\column@=\count393
-\maxfields@=\count394
+\row@=\count394
+\column@=\count395
+\maxfields@=\count396
 \andhelp@=\toks19
 \eqnshift@=\dimen139
 \alignsep@=\dimen140
@@ -720,13 +900,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
-y
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tools/xspace.st
 y
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -758,8 +931,8 @@ Package: suffix 2006/07/15 1.5a Variant command support
 ng.sty
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/generic/xstring/xstri
 ng.tex
-\integerpart=\count395
-\decimalpart=\count396
+\integerpart=\count397
+\decimalpart=\count398
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
@@ -797,24 +970,24 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/blindtext/blind
 text.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count397
-\c@Blindtext=\count398
-\c@blind@countparstart=\count399
-\blind@countxx=\count400
-\blindtext@numBlindtext=\count401
-\blind@countyy=\count402
-\c@blindlist=\count403
-\c@blindlistlevel=\count404
-\c@blindlist@level=\count405
-\blind@listitem=\count406
-\c@blind@listcount=\count407
-\c@blind@levelcount=\count408
-\blind@mathformula=\count409
-\blind@Mathformula=\count410
-\c@blind@randomcount=\count411
-\c@blind@randommax=\count412
-\c@blind@pangramcount=\count413
-\c@blind@pangrammax=\count414
+\c@blindtext=\count399
+\c@Blindtext=\count400
+\c@blind@countparstart=\count401
+\blind@countxx=\count402
+\blindtext@numBlindtext=\count403
+\blind@countyy=\count404
+\c@blindlist=\count405
+\c@blindlistlevel=\count406
+\c@blindlist@level=\count407
+\blind@listitem=\count408
+\c@blind@listcount=\count409
+\c@blind@levelcount=\count410
+\blind@mathformula=\count411
+\blind@Mathformula=\count412
+\c@blind@randomcount=\count413
+\c@blind@randommax=\count414
+\c@blind@pangramcount=\count415
+\c@blind@pangrammax=\count416
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.
 sty
@@ -835,7 +1008,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \TX@old@col=\dimen151
 \TX@target=\dimen152
 \TX@delta=\dimen153
-\TX@cols=\count415
+\TX@cols=\count417
 \TX@ftn=\toks24
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/caption/caption
@@ -855,23 +1028,23 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@hangindent=\dimen160
 )
 Package caption Info: KOMA-Script document class.
-\c@caption@flags=\count416
-\c@ContinuedFloat=\count417
+\c@caption@flags=\count418
+\c@ContinuedFloat=\count419
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/subfig/subfig.s
 ty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count418
+\c@KVtest=\count420
 \sf@farskip=\skip91
 \sf@captopadj=\dimen161
 \sf@capskip=\skip92
 \sf@nearskip=\skip93
-\c@subfigure=\count419
-\c@subfigure@save=\count420
-\c@lofdepth=\count421
-\c@subtable=\count422
-\c@subtable@save=\count423
-\c@lotdepth=\count424
+\c@subfigure=\count421
+\c@subfigure@save=\count422
+\c@lofdepth=\count423
+\c@subtable=\count424
+\c@subtable@save=\count425
+\c@lotdepth=\count426
 \sf@top=\skip94
 \sf@bottom=\skip95
 )
@@ -882,19 +1055,19 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTright=\skip97
 \LTpre=\skip98
 \LTpost=\skip99
-\LTchunksize=\count425
+\LTchunksize=\count427
 \LTcapwidth=\dimen162
 \LT@head=\box52
 \LT@firsthead=\box53
 \LT@foot=\box54
 \LT@lastfoot=\box55
-\LT@cols=\count426
-\LT@rows=\count427
-\c@LT@tables=\count428
-\c@LT@chunks=\count429
+\LT@cols=\count428
+\LT@rows=\count429
+\c@LT@tables=\count430
+\c@LT@chunks=\count431
 \LT@p@ftn=\toks25
 )
-Class scrreprt Info: longtable captions redefined on input line 201.
+Class scrreprt Info: longtable captions redefined on input line 198.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
 bs.sty
@@ -909,12 +1082,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen170
 \cmidrulekern=\dimen171
 \defaultaddspace=\dimen172
-\@cmidla=\count430
-\@cmidlb=\count431
+\@cmidla=\count432
+\@cmidlb=\count433
 \@aboverulesep=\dimen173
 \@belowrulesep=\dimen174
-\@thisruleclass=\count432
-\@lastruleclass=\count433
+\@thisruleclass=\count434
+\@lastruleclass=\count435
 \@thisrulewidth=\dimen175
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/
@@ -924,32 +1097,32 @@ Package: threeparttable 2003/06/13  v 3.0
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/multirow/multir
 ow.sty
-Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip100
-\multirow@cntb=\count434
+\multirow@cntb=\count436
 \multirow@dima=\skip101
 \bigstrutjot=\dimen176
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/listin
 gs.sty
-\lst@mode=\count435
+\lst@mode=\count437
 \lst@gtempboxa=\box57
 \lst@token=\toks26
-\lst@length=\count436
+\lst@length=\count438
 \lst@currlwidth=\dimen177
-\lst@column=\count437
-\lst@pos=\count438
+\lst@column=\count439
+\lst@pos=\count440
 \lst@lostspace=\dimen178
 \lst@width=\dimen179
-\lst@newlines=\count439
-\lst@lineno=\count440
+\lst@newlines=\count441
+\lst@lineno=\count442
 \lst@maxwidth=\dimen180
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/lstmis
 c.sty
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count441
-\lst@skipnumbers=\count442
+\c@lstnumber=\count443
+\lst@skipnumbers=\count444
 \lst@framebox=\box58
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/listings/listin
@@ -1046,8 +1219,8 @@ k.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen181
-\Hy@linkcounter=\count443
-\Hy@pagecounter=\count444
+\Hy@linkcounter=\count445
+\Hy@pagecounter=\count446
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
 .def
@@ -1055,7 +1228,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count445
+\Hy@SavedSpaceFactor=\count447
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyp
 erref.cfg
@@ -1070,10 +1243,10 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count446
+\c@Hy@tempcnt=\count448
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen182
-\Fld@menulength=\count447
+\Fld@menulength=\count449
 \Field@Width=\dimen183
 \Fld@charsize=\dimen184
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -1085,16 +1258,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count448
-\c@Item=\count449
+\Hy@abspage=\count450
+\c@Item=\count451
 )
 Package hyperref Info: Driver: hpdftex.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
 x.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count450
-\c@bookmark@seq@number=\count451
+\Fld@listcount=\count452
+\c@bookmark@seq@number=\count453
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunf
 ilecheck.sty
@@ -1104,15 +1277,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip102
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 270.
-Package hyperref Info: Option `linktocpage' set `true' on input line 270.
-Package hyperref Info: Option `breaklinks' set `true' on input line 270.
-Package hyperref Info: Option `pageanchor' set `true' on input line 270.
-Package hyperref Info: Option `plainpages' set `false' on input line 270.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 270.
+Package hyperref Info: Option `colorlinks' set `true' on input line 267.
+Package hyperref Info: Option `linktocpage' set `true' on input line 267.
+Package hyperref Info: Option `breaklinks' set `true' on input line 267.
+Package hyperref Info: Option `pageanchor' set `true' on input line 267.
+Package hyperref Info: Option `plainpages' set `false' on input line 267.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 267.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 270.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 270.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 267.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 267.
 (./style/classicthesis.sty
 
 LaTeX Warning: You have requested package `style/classicthesis',
@@ -1161,11 +1334,11 @@ Package: eulervm 2005/01/11 v4.0 (WaS)
 type.sty
 Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
 \MT@toks=\toks27
-\MT@count=\count452
+\MT@count=\count454
 LaTeX Info: Redefining \textls on input line 790.
 \MT@outer@kern=\dimen185
 LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
-\MT@listname@count=\count453
+\MT@listname@count=\count455
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/microtype/micro
 type-pdftex.def
@@ -1339,11 +1512,11 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \newchnumberwidth=\skip148
 \figurelabelwidth=\skip149
 \tablelabelwidth=\skip150
-\c@listings=\count454
+\c@listings=\count456
 \cftbeforelistingsskip=\skip151
 \cftlistingsindent=\skip152
 \cftlistingsnumwidth=\skip153
-\c@loldepth=\count455
+\c@loldepth=\count457
 \cftbeforeloltitleskip=\skip154
 \cftafterloltitleskip=\skip155
 \listingslabelwidth=\skip156
@@ -1375,167 +1548,9 @@ ils.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
 )
-\XKV@depth=\count456
+\XKV@depth=\count458
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
-ty
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+FEFF (decimal 65279)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/mweights/mweigh
 ts.sty
 Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
@@ -1558,7 +1573,7 @@ LaTeX Info: Redefining \itshape on input line 31.
 LaTeX Info: Redefining \slshape on input line 33.
 LaTeX Info: Redefining \scshape on input line 37.
 )
-LaTeX Info: Redefining \oldstylenums on input line 489.
+LaTeX Info: Redefining \oldstylenums on input line 490.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/LinLi
 bertine_I.tex))
@@ -1566,11 +1581,11 @@ bertine_I.tex))
 rb.sty
 Package: fancyvrb 2019/01/15
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count457
+\FV@CodeLineNo=\count459
 \FV@InFile=\read3
 \FV@TabBox=\box60
-\c@FancyVerbLine=\count458
-\FV@StepNumber=\count459
+\c@FancyVerbLine=\count460
+\FV@StepNumber=\count461
 \FV@OutFile=\write4
 )
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.s
@@ -1582,6 +1597,56 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen193
 \FrameSep=\dimen194
 )
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/am
+erican-apa.lbx
+File: american-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/am
+erican.lbx
+File: american.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/en
+glish-apa.lbx
+File: english-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/en
+glish.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)))
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/am
+erican.lbx
+File: american.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex-apa/en
+glish-apa.lbx
+File: english-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/am
+erican.lbx
+File: american.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/biblatex/lbx/en
+glish.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)))))
 Package biblatex Info: Trying to load language 'ngerman' -> 'ngerman-apa'...
 Package biblatex Info: ... file 'ngerman-apa.lbx' found.
 
@@ -1630,34 +1695,34 @@ File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count460
-\@quotereset=\count461
+\@quotelevel=\count462
+\@quotereset=\count463
 (./FOM-Thesis.aux (./00-Abstract.aux))
 \openout1 = `FOM-Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 414.
-LaTeX Font Info:    ... okay on input line 414.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 414.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 414.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 411.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 411.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 414.
+LaTeX Font Info:    ... okay on input line 411.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 411.
+LaTeX Font Info:    ... okay on input line 411.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TOsF on
- input line 414.
+ input line 411.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/T1Lin
 uxLibertineT-TOsF.fd
@@ -1665,7 +1730,7 @@ File: T1LinuxLibertineT-TOsF.fd 2017/03/20 (autoinst) Font definitions for T1/L
 inuxLibertineT-TOsF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 414.
+(Font)              scaled to size 10.95pt on input line 411.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1674,8 +1739,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'FOM-Thesis.bbl' found.
 (./FOM-Thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 414.
-Package biblatex Info: Reference segment=0 on input line 414.
+Package biblatex Info: Reference section=0 on input line 411.
+Package biblatex Info: Reference segment=0 on input line 411.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/epstop
 df-base.sty
@@ -1709,9 +1774,9 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count462
+\c@lstlisting=\count464
 \AtBeginShipoutBox=\box61
-Package hyperref Info: Link coloring ON on input line 414.
+Package hyperref Info: Link coloring ON on input line 411.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/hyperref/namere
 f.sty
@@ -1721,11 +1786,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 itlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count463
+\c@section@level=\count465
 )
-LaTeX Info: Redefining \ref on input line 414.
-LaTeX Info: Redefining \pageref on input line 414.
-LaTeX Info: Redefining \nameref on input line 414.
+LaTeX Info: Redefining \ref on input line 411.
+LaTeX Info: Redefining \pageref on input line 411.
+LaTeX Info: Redefining \nameref on input line 411.
 (./FOM-Thesis.out) (./FOM-Thesis.out)
 \@outlinefile=\write5
 \openout5 = `FOM-Thesis.out'.
@@ -1736,7 +1801,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 414.
+(scrreprt)           before \begin{document} on input line 411.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/bookma
 rk.sty
@@ -1748,9 +1813,9 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 Package auxhook Info: \AddLineBeginMainAux comes a little late,
 (auxhook)             because the main .aux file is already opened on input lin
 e 164.
-\BKM@id=\count464
+\BKM@id=\count466
 ))
-LaTeX Info: Redefining \microtypecontext on input line 414.
+LaTeX Info: Redefining \microtypecontext on input line 411.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1762,24 +1827,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TOsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@mv@tabular=\count465
-\c@mv@boldtabular=\count466
+\c@mv@tabular=\count467
+\c@mv@boldtabular=\count468
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 443.
+(Font)              scaled to size 12.0pt on input line 440.
 <images/bookdownplus-logo.pdf, id=4, 113.7048pt x 113.7048pt>
 File: images/bookdownplus-logo.pdf Graphic file (type pdf)
 <use images/bookdownplus-logo.pdf>
-Package pdftex.def Info: images/bookdownplus-logo.pdf  used on input line 448.
+Package pdftex.def Info: images/bookdownplus-logo.pdf  used on input line 445.
 (pdftex.def)             Requested size: 85.35826pt x 85.35818pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 454.
+(Font)              scaled to size 20.74pt on input line 451.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
-(Font)              scaled to size 20.74pt on input line 455.
+(Font)              scaled to size 20.74pt on input line 452.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 455.
+(Font)              scaled to size 17.28pt on input line 452.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 459.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 459.
+(Font)              scaled to size 12.0pt on input line 456.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 456.
 
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/psnfss/t1pplj.f
@@ -1790,7 +1855,7 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 l.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeur on input line 459.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 456.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/uzeur.f
 d
@@ -1800,7 +1865,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 r.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 459.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 456.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/uzeus.f
 d
@@ -1810,14 +1875,14 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 s.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 459.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 456.
 
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/eulervm/uzeuex.
 fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 459
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 456
 .
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.
@@ -1846,8 +1911,8 @@ ftex.map} <./images/bookdownplus-logo.pdf>] [2
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 51
-0.
+Package tocbasic Info: character protrusion at toc deactivated on input line 50
+7.
 (./FOM-Thesis.toc
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 7.
@@ -1858,10 +1923,10 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/b/n' will be
 \openout6 = `FOM-Thesis.toc'.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 515.
+(Font)              scaled to size 10.0pt on input line 512.
 [5]
-Package tocbasic Info: character protrusion at lof deactivated on input line 53
-0.
+Package tocbasic Info: character protrusion at lof deactivated on input line 52
+7.
 (./FOM-Thesis.lof)
 \tf@lof=\write7
 \openout7 = `FOM-Thesis.lof'.
@@ -1870,14 +1935,14 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 53
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 54
-3.
+0.
 (./FOM-Thesis.lot)
 \tf@lot=\write8
 \openout8 = `FOM-Thesis.lot'.
 
 [7]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 562.
+(Font)              scaled to size 9.0pt on input line 559.
 [8]
 chapter 1.
 
@@ -1896,31 +1961,50 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              deprecated \float@addtolist interface .
 
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineMonoT-TLF
- on input line 588.
+ on input line 585.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/T1Lin
 uxLibertineMonoT-TLF.fd
-File: T1LinuxLibertineMonoT-TLF.fd 2017/03/20 (autoinst) Font definitions for T
+File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T
 1/LinuxLibertineMonoT-TLF.
 )
-LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 588.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/m/n' in size <10.95>
+ not available
+(Font)              Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' tried ins
+tead on input line 585.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineMonoT-TLF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 585.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineMonoT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Overfull \hbox (16.98552pt too wide) in paragraph at lines 585--587
+[]\T1/LinuxLibertineT-TOsF/m/n/10.95 The R packa-ge \T1/LinuxLibertineMonoT-TLF
+/regular/n/10.95 bookdownplus \T1/LinuxLibertineT-TOsF/m/n/10.95 ([][]Zhao, [][
+]2017[][]) is an ex-ten-si-on of \T1/LinuxLibertineMonoT-TLF/regular/n/10.95 bo
+okdown
+ []
+
+
+Overfull \hbox (13.35928pt too wide) in paragraph at lines 585--587
+\T1/LinuxLibertineT-TOsF/m/n/10.95 which are tai-lo-red so that I can work hap-
+pi-ly un-der the um-brel-la of \T1/LinuxLibertineMonoT-TLF/regular/n/10.95 book
+down\T1/LinuxLibertineT-TOsF/m/n/10.95 .
+ []
+
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <10.95> n
 ot available
 (Font)              Font shape `T1/LinuxLibertineT-TOsF/m/it' tried instead on 
-input line 591.
+input line 588.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 591.
+(Font)              scaled to size 10.95pt on input line 588.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sl' in size <9> not a
 vailable
 (Font)              Font shape `T1/LinuxLibertineT-TOsF/m/it' tried instead on 
-input line 591.
+input line 588.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 591.
+(Font)              scaled to size 9.0pt on input line 588.
 [1
 
 
@@ -1934,7 +2018,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
 ]
 chapter 2.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TOsF o
-n input line 602.
+n input line 599.
 
 (/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/tex/latex/libertine/TS1Li
 nuxLibertineT-TOsF.fd
@@ -1942,7 +2026,7 @@ File: TS1LinuxLibertineT-TOsF.fd 2017/03/20 (autoinst) Font definitions for TS1
 /LinuxLibertineT-TOsF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TOsF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 602.
+(Font)              scaled to size 10.95pt on input line 599.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TOsF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1956,13 +2040,13 @@ chapter 3.
 File: FOM-Thesis_files/figure-latex/apa1-1.pdf Graphic file (type pdf)
 <use FOM-Thesis_files/figure-latex/apa1-1.pdf>
 Package pdftex.def Info: FOM-Thesis_files/figure-latex/apa1-1.pdf  used on inpu
-t line 635.
+t line 632.
 (pdftex.def)             Requested size: 302.39795pt x 186.20844pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 646.
+(Font)              scaled to size 10.0pt on input line 643.
 [5 <./FOM-Thesis_files/figure-latex/apa1-1.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TOsF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 683.
+(Font)              scaled to size 10.0pt on input line 680.
 [6]
 chapter 4.
 [7
@@ -1977,7 +2061,7 @@ chapter 5.
 File: FOM-Thesis_files/figure-latex/fig1-1.pdf Graphic file (type pdf)
 <use FOM-Thesis_files/figure-latex/fig1-1.pdf>
 Package pdftex.def Info: FOM-Thesis_files/figure-latex/fig1-1.pdf  used on inpu
-t line 704.
+t line 701.
 (pdftex.def)             Requested size: 268.80103pt x 165.52043pt.
 [9 <./FOM-Thesis_files/figure-latex/fig1-1.pdf>] [10]
 chapter 6.
@@ -1994,41 +2078,17 @@ chapter without number
 
 ]
 chapter A.
-
-Overfull \hbox (13.24736pt too wide) in paragraph at lines 764--765
-\T1/LinuxLibertineT-TOsF/m/n/10.95 so ist ein Überblick über Grund-la-gen-the-m
-en sin-nvoll. Diese The-men er-scheinen
- []
-
 [15] [16
 
 
 ]
 chapter B.
-
-Overfull \hbox (9.33029pt too wide) in paragraph at lines 771--772
-\T1/LinuxLibertineT-TOsF/m/n/10.95 ohne uner-laubte Hil-fe ange-fer-tigt wor-de
-n ist, ins-beson-dere dass ich alle Stellen,
- []
-
-
-Overfull \hbox (45.45334pt too wide) in paragraph at lines 771--772
-\T1/LinuxLibertineT-TOsF/m/n/10.95 die von mir ein-gere-ichte schriftliche Ver-
-sion mit der dig-i-tal-en Ver-sion u??bereinstimmt.
- []
-
-
-Overfull \hbox (7.98694pt too wide) in paragraph at lines 771--772
-\T1/LinuxLibertineT-TOsF/m/n/10.95 kein-er Prä-fungs-be-hörde/Prü-fungsstelle v
-orgele-gen hat. Ich erk-läre mich damit
- []
-
 [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 796.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 796.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 793.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 793.
 (./FOM-Thesis.aux (./00-Abstract.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 796.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 796.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 793.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 793.
 Package rerunfilecheck Info: File `FOM-Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'FOM-Thesis.run.xml'.
@@ -2036,17 +2096,17 @@ Package logreq Info: Writing requests to 'FOM-Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34614 strings out of 494553
- 629984 string characters out of 6174236
- 1352385 words of memory out of 5000000
- 37678 multiletter control sequences out of 15000+600000
- 672201 words of font info for 131 fonts, out of 8000000 for 9000
+ 35165 strings out of 494500
+ 643707 string characters out of 6172747
+ 1395682 words of memory out of 5000000
+ 38222 multiletter control sequences out of 15000+600000
+ 672603 words of font info for 132 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  80i,13n,131p,9089b,5506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/enc/dvips/liberti
 ne/lbtn_naooyc.enc}{/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/
 enc/dvips/libertine/lbtn_oie7e6.enc}{/Users/sebastiansaueruser/Library/TinyTeX/
-texmf-dist/fonts/enc/dvips/libertine/lbtn_d6jdyt.enc}{/Users/sebastiansaueruser
+texmf-dist/fonts/enc/dvips/libertine/lbtn_dhi6qf.enc}{/Users/sebastiansaueruser
 /Library/TinyTeX/texmf-dist/fonts/enc/dvips/libertine/lbtn_hj4mhx.enc}{/Users/s
 ebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/enc/dvips/libertine/lbtn_pjx
 d67.enc}{/Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/enc/dvips/l
@@ -2061,7 +2121,7 @@ user/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></
 Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts
 /euler/eurm10.pfb></Users/sebastiansaueruser/Library/TinyTeX/texmf-dist/fonts/t
 ype1/public/amsfonts/euler/eurm7.pfb>
-Output written on FOM-Thesis.pdf (25 pages, 445979 bytes).
+Output written on FOM-Thesis.pdf (25 pages, 446795 bytes).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  301 compressed objects within 4 object streams

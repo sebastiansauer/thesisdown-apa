@@ -49,6 +49,20 @@ This work builds heavily on the following open access sources (amongst others):
 
 
 
+# Visuals
+
+Here are some screenshots for illustration purposes.
+
+![/images/ex1.png] ![/images/ex2.png] ![/images/ex3.png] ![/images/ex4.png] ![/images/ex5.png]
+
+
+A rendered PDF example can be found [here](/_book/FOM-Thesis.pdf).
+
+
+
+
+
+
 
 
 # Installation

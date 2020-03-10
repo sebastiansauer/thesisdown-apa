@@ -64,7 +64,7 @@
 
 
 
-\newcommand{\myTitle}{Das ist der Titel der Thesis\xspace}
+\newcommand{\myTitle}{Das ist der Titel der Thesis, und sie ist cool\xspace}
 \newcommand{\mySubtitle}{Master-Thesis\\ Zur Erlangung des Grades\xspace}
 \newcommand{\myDegree}{Master of Science (M. \thinspace Sc.)\xspace}
 \newcommand{\myName}{Sebastian Sauer\xspace}
@@ -105,17 +105,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 
+ 
+%------ENCODING------------------------------------------
 
-% %------------------------------------------------			
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+\usepackage{fontenc}
+
+
+
+% ------------------------------------------------			
 % 
 % 
 \bibliographystyle{apa}
-% \usepackage[style=apa]{biblatex}
-% 
-% \addbibresource{bib/bib.bib}
-% 
-% 
-%  
 
 
 \usepackage[style=apa]{biblatex}
@@ -145,11 +146,7 @@
 
 \PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
  \usepackage{amsmath}
- 
- %------------------------------------------------
 
-\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
-\usepackage{fontenc}
 
 
 
@@ -452,7 +449,7 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 
 \begingroup
 \huge
-\color{Maroon}\textsc{Das ist der Titel der Thesis} \LARGE \\Das ist der Untertitel\\ \bigskip % Thesis title
+\color{Maroon}\textsc{Das ist der Titel der Thesis, und sie ist cool} \LARGE \\Das ist der Untertitel und auch nicht schlecht\\ \bigskip % Thesis title
 
 \endgroup
 
@@ -748,7 +745,7 @@ Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
 \hypertarget{conclusions}{%
 \chapter{Conclusions}\label{conclusions}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Lorem \emph{kursiv} dolor sit \textbf{fett}, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
 \hypertarget{refs}{}
 
